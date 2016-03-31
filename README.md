@@ -127,7 +127,7 @@ http://api.geonames.org/hierarchyJSON?geonameId=6696037&username=demo
 }
 ```
 
-# Geonames Account Setup
+# Setup Geonames Account
 
 To use this module you will require a Geonames account.
 If you have not already signed up, visit:
