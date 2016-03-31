@@ -1,4 +1,6 @@
 # Lambda Taggable Geonames
+[![Codeship](https://img.shields.io/codeship/b54de050-d99b-0133-fa16-424a9136fddd.svg)](https://codeship.com/projects/140359/)
+
 
 Lambda function that creates tags for elements in a Geonames hierarchy.
 
