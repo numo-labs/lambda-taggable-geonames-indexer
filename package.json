@@ -1,0 +1,27 @@
+{
+  "name": "lambda-taggable-geonames-indexer",
+  "version": "1.0.0",
+  "description": "Create Tags based on Geonames hierarchy",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mochalatte"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/numo-labs/lambda-taggable-geonames-indexer.git"
+  },
+  "keywords": [
+    "geonames",
+    "tag",
+    "taggable"
+  ],
+  "author": "Pascal & Pals",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/numo-labs/lambda-taggable-geonames-indexer/issues"
+  },
+  "homepage": "https://github.com/numo-labs/lambda-taggable-geonames-indexer#readme"
+}
