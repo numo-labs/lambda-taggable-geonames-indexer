@@ -1,11 +1,8 @@
 {
   "name": "lambda-taggable-geonames-indexer",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Create Tags based on Geonames hierarchy",
-  "main": "index.js",
-  "directories": {
-    "test": "test"
-  },
+  "main": "lib/geonames.js",
   "scripts": {
     "start": "node index.js",
     "test": "semistandard && npm run coverage",

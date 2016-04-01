@@ -171,8 +171,6 @@ see: https://github.com/numo-labs/aws-lambda-deploy#2-ensure-that-the-required-a
 
 
 
-
-
 ## Setup Geonames Account
 
 To use this module you will require a Geonames account.

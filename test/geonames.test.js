@@ -24,9 +24,9 @@ describe('Geonames API', function () {
       assert(!err, 'No erros');
       // console.log(err, data);
       var geonames_id = data.geonames[0].geonameId;
-      geonames.hierary(geonames_id, function (err, data) {
+      geonames.hierarchy(geonames_id, function (err, data) {
         assert(!err, 'No erros');
-        // console.log(err, data);
+        console.log(err, data);
         assert(data.geonames[0].name === 'Earth', 'The Hotel is in Earth');
         done();
       });
