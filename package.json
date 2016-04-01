@@ -6,10 +6,9 @@
   "directories": {
     "test": "test"
   },
-  "main": "index.js",
   "scripts": {
     "start": "node index.js",
-    "test": "semistandard && npm run api && npm run coverage",
+    "test": "semistandard && npm run coverage",
     "deploy": "node ./node_modules/dpl/dpl.js",
     "nocov": "node ./node_modules/.bin/mocha test/api_request.test.js",
     "semistandard": "semistandard --verbose | snazzy",
@@ -44,6 +43,7 @@
   "devDependencies": {
     "aws-lambda-test-utils": "^1.0.2",
     "aws-sdk-mock": "^1.0.9",
+    "decache": "^3.0.5",
     "dpl": "1.0.6",
     "istanbul": "^0.4.2",
     "mocha": "^2.4.5",

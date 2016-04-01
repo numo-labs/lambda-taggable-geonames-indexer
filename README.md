@@ -1,12 +1,28 @@
 # Lambda Taggable Geonames
 [![Codeship](https://img.shields.io/codeship/b54de050-d99b-0133-fa16-424a9136fddd.svg)](https://codeship.com/projects/140359/)
+[![codecov.io](https://codecov.io/github/numo-labs/lambda-taggable-geonames-indexer/coverage.svg?branch=master)](https://codecov.io/github/numo-labs/lambda-taggable-geonames-indexer?branch=master)
 
 
 Lambda function that creates tags for elements in a Geonames hierarchy.
 
-The best way to understand how this works is with a simple example:
+The best way to *understand* how this works is with a simple example:
 
-Imagine we have a Hotel on Formenterra
+Imagine we have a Hotel in [Formenterra](https://www.google.co.uk/search?q=Formentera&tbm=isch)
+
+```js
+{
+    "MID": "1234ABCD",
+    "Name": "Blanco Hotel Formentera",
+    "Country": "SPAIN",
+    "ISO-2": "ES",
+    "Address": "Calle Fonoll Marí, 50 07871 Es Pujols",
+    "Latitude": "38.7",
+    "Longitude": "1.467"
+  }
+```
+We would lookup this hotel in Geonames given its `Latitude` and `Longitude`
+values using the following query:
+
 http://api.geonames.org/findNearbyPlaceNameJSON?lat=38.7&lng=1.467&username=demo&style=full&localCountry=true&maxrows=100&cities=15000
 
 ```js
@@ -129,7 +145,35 @@ http://api.geonames.org/hierarchyJSON?geonameId=6696037&username=demo
 }
 ```
 
-# Setup Geonames Account
+## Expected Environment Variables
+
+### Running the Lambda/Script
+
+Using this script requires that you set a `GEONAMES_USERNAMES` environment variable (*one or more usernames*)
+e.g:
+```sh
+export GEONAMES_USERNAME=yourusername,backupusername,etc
+```
+
+
+### Deploying
+
+Deploying to AWS requires that you set `AWS_REGION` and `AWS_IAM_ROLE` variables.
+
+e.g:
+```sh
+export AWS_REGION=eu-west-1
+export AWS_IAM_ROLE=arn:aws:iam::123456789:role/LambdaExecRole
+```
+
+see: https://github.com/numo-labs/aws-lambda-deploy#2-ensure-that-the-required-aws-environment-variables-are-set
+
+
+
+
+
+
+## Setup Geonames Account
 
 To use this module you will require a Geonames account.
 If you have not already signed up, visit:
@@ -146,7 +190,11 @@ Once enabled you should see a confirmation message:
 
 Now everything should work as expected.
 
-# Tests
+### Running low on Geonames API Calls/Credits?
+
+see: https://github.com/numo-labs/lambda-taggable-geonames-indexer/issues/5
+
+## Tests
 
 to run the tests for this project execute the following command in your terminal:
 
