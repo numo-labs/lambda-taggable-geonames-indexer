@@ -1,6 +1,6 @@
 var assert = require('assert');
 var geonames = require('../lib/geonames');
-var fixtures = require('./hotels_fixture.json');
+var fixtures = require('./master_hotels_fixture.json');
 
 describe('Geonames API', function () {
   it('geonames.find (find_nearby_place_name_by_lat_lng)', function (done) {
@@ -26,7 +26,7 @@ describe('Geonames API', function () {
       var geonames_id = data.geonames[0].geonameId;
       geonames.hierarchy(geonames_id, function (err, data) {
         assert(!err, 'No erros');
-        console.log(err, data);
+        // console.log(err, data);
         assert(data.geonames[0].name === 'Earth', 'The Hotel is in Earth');
         done();
       });
