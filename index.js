@@ -1,4 +1,3 @@
-process.env.GEONAMES_USERNAMES = 'numo,numo1,numo2,numo3,numo4,numo5';
 var geonames = require('./lib/geonames');
 var helper = require('./lib/helper');
 

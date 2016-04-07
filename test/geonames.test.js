@@ -10,7 +10,7 @@ describe('Geonames API', function () {
     geonames.find(lat, lng, function (err, data) {
       // console.log(err, data);
       assert(!err, 'No erros');
-      // console.log('geonameId:', data.geonames[0].geonameId);
+      console.log('geonameId:', data.geonames);
       assert(data.geonames[0].geonameId === 3343565);
       done();
     });
