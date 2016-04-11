@@ -2,8 +2,53 @@
 [![Codeship](https://img.shields.io/codeship/b54de050-d99b-0133-fa16-424a9136fddd.svg)](https://codeship.com/projects/140359/)
 [![codecov.io](https://codecov.io/github/numo-labs/lambda-taggable-geonames-indexer/coverage.svg?branch=master)](https://codecov.io/github/numo-labs/lambda-taggable-geonames-indexer?branch=master)
 
+## Why?
 
-Lambda function that creates tags for elements in a Geonames hierarchy.
+Locating Hotels and other content by searching for a place name is
+the *heart* of the Tagging system.
+We use Geonames to
+"*[reverse geocode](https://en.wikipedia.org/wiki/Reverse_geocoding)*"
+the Lat/Lon for each Hotel in the database and add "*hierarchy*" for that place.  
+> *See*: ***How?*** > ***Detail*** *section for detailed example*
+
+
+## What?
+
+Lambda function that accepts a set of Longitude & Latitude coordinates (***lat/lon***)
+and returns a list of Geo Tags.
+(*corresponding to the elements in the Geonames hierarchy for that lat/lon*).
+
+## How?
+
+There are *two* ways to use this package:
+
+### Lambda
+
+1. Deploy the Lambda function by running the deployment script: `npm run deploy`  
+( *see: https://github.com/numo-labs/aws-lambda-deploy for detail* )  
+
+2. Invoke in AWS Console:
+
+Sample Event
+```js
+{
+  "_id": "hotel:mhid.022wje3",
+  "displayName": "Europa",
+  "location": {
+    "lat": "45.67960",
+    "lon": "13.40070"
+  },
+  "tags": []
+}
+```
+
+
+
+### Node Module
+
+
+
+### *Detail*
 
 The best way to *understand* how this works is with a simple example:
 

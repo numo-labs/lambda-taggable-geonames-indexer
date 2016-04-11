@@ -25,7 +25,7 @@ describe('Get Geonames Hierarchy for Hotel by Lat/Long', function () {
   it('invoke the lambda function handler', function (done) {
     CONTEXT.succeed = function () {
       console.log(' - - - - - - - - - - - - - - - - - - - - - - - - ');
-      console.log(arguments); // the argument to context.succeed
+      console.log(JSON.stringify(arguments, null, 2)); // the argument to context.succeed
       assert(arguments[0].geonames[0].name === 'Earth');
       done();
     };
