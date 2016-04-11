@@ -1,7 +1,7 @@
 var handler = require('../index').handler;
 var assert = require('assert');
-var fixtures = require('./master_hotels_fixture.json');
-var master = fixtures[0];
+var fixtures = require('./fixtures/master_hotels_fixture.json');
+var master = fixtures[5];
 
 var hotel_tag = {
   _id: 'hotel:mhid.' + master.MID,
@@ -24,8 +24,8 @@ var CONTEXT = {
 describe('Get Geonames Hierarchy for Hotel by Lat/Long', function () {
   it('invoke the lambda function handler', function (done) {
     CONTEXT.succeed = function () {
-      console.log(' - - - - - - - - - - - - - - - - - - - - - - - - ');
-      console.log(JSON.stringify(arguments, null, 2)); // the argument to context.succeed
+      // console.log(' - - - - - - - - - - - - - - - - - - - - - - - - ');
+      // console.log(JSON.stringify(arguments, null, 2)); // the argument to context.succeed
       assert(arguments[0].geonames[0].name === 'Earth');
       done();
     };

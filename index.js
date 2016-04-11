@@ -18,6 +18,7 @@ exports.handler = function (event, context) {
     var geonames_id = data.geonames[0].geonameId;
     geonames.hierarchy(geonames_id, function (err, hierarchy) {
       AwsHelper.failOnError(err, event, context);
+      console.log(JSON.stringify(hierarchy, null, 2)); // the argument to context.succeed
       context.succeed(hierarchy);
     });
   });

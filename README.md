@@ -32,21 +32,26 @@ There are *two* ways to use this package:
 Sample Event
 ```js
 {
-  "_id": "hotel:mhid.022wje3",
-  "displayName": "Europa",
+  "_id": "hotel:mhid.02tu1jz",
+  "displayName": "Elvis Presley's Heartbreak",
   "location": {
-    "lat": "45.67960",
-    "lon": "13.40070"
+    "lat": "35.04850",
+    "lon": "-90.02710"
   },
   "tags": []
 }
+```
+Will return an array of Geo Tags in the Taggable System format:
+
+```js
+
 ```
 
 
 
 ### Node Module
 
-
+if you prefer to use this package as a node module in a different file
 
 ### *Detail*
 
