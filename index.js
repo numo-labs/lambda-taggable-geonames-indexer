@@ -1,6 +1,5 @@
 var geonames = require('./lib/geonames');
 var AwsHelper = require('aws-lambda-helper');
-var format_as_tags = require('./lib/format_tags');
 
 /**
  * expects event to
@@ -20,7 +19,7 @@ exports.handler = function (event, context) {
     var geonames_id = data.geonames[0].geonameId;
     geonames.hierarchy(geonames_id, function (err, hierarchy) {
       AwsHelper.failOnError(err, event, context);
-      var geo_tags = format_as_tags(hierarchy);
+      var geo_tags = geonames.format_hierarchy_as_tags(hierarchy);
       // console.log(JSON.stringify(geo_tags, null, 2)); // the argument to context.succeed
       context.succeed(geo_tags);
     });

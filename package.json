@@ -1,6 +1,6 @@
 {
   "name": "lambda-taggable-geonames-indexer",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "Create Tags based on Geonames hierarchy",
   "main": "lib/geonames.js",
   "scripts": {
@@ -10,7 +10,7 @@
     "nocov": "node ./node_modules/.bin/mocha test/api_request.test.js",
     "semistandard": "semistandard --verbose | snazzy",
     "api": "./node_modules/.bin/mocha test/geonames.test.js",
-    "main": "./node_modules/.bin/mocha test/index.test.js",
+    "main": "node_modules/.bin/mocha test/index.handler.test.js",
     "coverage": "./node_modules/.bin/istanbul cover ./node_modules/.bin/_mocha test/ --report lcov -- -R spec",
     "check-coverage": "npm run coverage && node_modules/.bin/istanbul check-coverage --statements 100 --functions 100 --lines 100 --branches 100"
   },
