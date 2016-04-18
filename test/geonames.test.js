@@ -1,6 +1,6 @@
 var assert = require('assert');
 var geonames = require('../lib/geonames');
-var fixtures = require('./master_hotels_fixture.json');
+var fixtures = require('./fixtures/master_hotels_fixture.json');
 
 describe('Geonames API', function () {
   it('geonames.find (find_nearby_place_name_by_lat_lng)', function (done) {

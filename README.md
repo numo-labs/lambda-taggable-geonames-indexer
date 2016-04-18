@@ -44,14 +44,197 @@ Sample Event
 Will return an array of Geo Tags in the Taggable System format:
 
 ```js
-
+[
+  {
+    "_id": "geo:geonames.6295630",
+    "displayName": "Earth",
+    "location": {
+      "lat": "0",
+      "lon": "0"
+    },
+    "tags": []
+  },
+  {
+    "_id": "geo:geonames.6255149",
+    "displayName": "North America",
+    "location": {
+      "lat": "46.07323",
+      "lon": "-100.54688"
+    },
+    "tags": [
+      {
+        "tagId": "geo:geonames.6295630",
+        "displayName": "Earth",
+        "source": "geonames",
+        "inherited": false,
+        "active": true
+      }
+    ]
+  },
+  {
+    "_id": "geo:geonames.6252001",
+    "displayName": "United States",
+    "location": {
+      "lat": "39.76",
+      "lon": "-98.5"
+    },
+    "tags": [
+      {
+        "tagId": "geo:geonames.6255149",
+        "displayName": "North America",
+        "source": "geonames",
+        "inherited": false,
+        "active": true
+      },
+      {
+        "tagId": "geo:geonames.6295630",
+        "displayName": "Earth",
+        "source": "geonames",
+        "inherited": false,
+        "active": true
+      }
+    ]
+  },
+  {
+    "_id": "geo:geonames.4662168",
+    "displayName": "Tennessee",
+    "location": {
+      "lat": "35.75035",
+      "lon": "-86.25027"
+    },
+    "tags": [
+      {
+        "tagId": "geo:geonames.6252001",
+        "displayName": "United States",
+        "source": "geonames",
+        "inherited": false,
+        "active": true
+      },
+      {
+        "tagId": "geo:geonames.6255149",
+        "displayName": "North America",
+        "source": "geonames",
+        "inherited": false,
+        "active": true
+      },
+      {
+        "tagId": "geo:geonames.6295630",
+        "displayName": "Earth",
+        "source": "geonames",
+        "inherited": false,
+        "active": true
+      }
+    ]
+  },
+  {
+    "_id": "geo:geonames.4657046",
+    "displayName": "Shelby County",
+    "location": {
+      "lat": "35.184",
+      "lon": "-89.8956"
+    },
+    "tags": [
+      {
+        "tagId": "geo:geonames.4662168",
+        "displayName": "Tennessee",
+        "source": "geonames",
+        "inherited": false,
+        "active": true
+      },
+      {
+        "tagId": "geo:geonames.6252001",
+        "displayName": "United States",
+        "source": "geonames",
+        "inherited": false,
+        "active": true
+      },
+      {
+        "tagId": "geo:geonames.6255149",
+        "displayName": "North America",
+        "source": "geonames",
+        "inherited": false,
+        "active": true
+      },
+      {
+        "tagId": "geo:geonames.6295630",
+        "displayName": "Earth",
+        "source": "geonames",
+        "inherited": false,
+        "active": true
+      }
+    ]
+  },
+  {
+    "_id": "geo:geonames.4645760",
+    "displayName": "Nonconnah",
+    "location": {
+      "lat": "35.06204",
+      "lon": "-90.0362"
+    },
+    "tags": [
+      {
+        "tagId": "geo:geonames.4657046",
+        "displayName": "Shelby County",
+        "source": "geonames",
+        "inherited": false,
+        "active": true
+      },
+      {
+        "tagId": "geo:geonames.4662168",
+        "displayName": "Tennessee",
+        "source": "geonames",
+        "inherited": false,
+        "active": true
+      },
+      {
+        "tagId": "geo:geonames.6252001",
+        "displayName": "United States",
+        "source": "geonames",
+        "inherited": false,
+        "active": true
+      },
+      {
+        "tagId": "geo:geonames.6255149",
+        "displayName": "North America",
+        "source": "geonames",
+        "inherited": false,
+        "active": true
+      },
+      {
+        "tagId": "geo:geonames.6295630",
+        "displayName": "Earth",
+        "source": "geonames",
+        "inherited": false,
+        "active": true
+      }
+    ]
+  }
+]
 ```
 
 
 
 ### Node Module
 
-if you prefer to use this package as a node module in a different file
+If you prefer to use this package as a node module e.g: as part of another lambda
+
+```sh
+npm install lambda-taggable-geonames-indexer --save
+```
+Then in your code:
+
+```js
+var geonames = require('lambda-taggable-geonames-indexer');
+var lat = '28.3852';
+var lon = '81.5639';
+geonames.find(lat, lon, function (err, geo) {
+  console.log(geo); // see Detail section below for example output
+  var geonames_id = geo.geonames[0].geonameId;
+  geonames.hierarchy(geonames_id, function (err, hierarchy) {
+    console.log(JSON.stringify(hierarchy, null, 2));
+  }); // see Detail for example hierarchy object
+});
+```
 
 ### *Detail*
 
