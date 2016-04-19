@@ -32,4 +32,39 @@ describe('Geonames API', function () {
       });
     });
   });
+
+  it('geonames.get (getJSON)', function (done) {
+    // the fixtures have commas in the Lat/Long values ...
+    var geonames_id = 2643743;
+    geonames.get(geonames_id, function (err, data) {
+      assert(!err, 'No erros');
+      // console.log(err, data);
+      assert(data.wikipediaURL === 'en.wikipedia.org/wiki/London');
+      done();
+    });
+  });
+
+  it('geonames.get (getJSON)', function (done) {
+    // the fixtures have commas in the Lat/Long values ...
+    var geonames_id = 2643743;
+    geonames.get(geonames_id, function (err, data) {
+      assert(!err, 'No erros');
+      assert(data.wikipediaURL === 'en.wikipedia.org/wiki/London');
+      done();
+    });
+  });
+
+  it('geonames.alternate_names (get > alternate_names)', function (done) {
+    // the fixtures have commas in the Lat/Long values ...
+    var geonames_id = 2643743;
+    geonames.get(geonames_id, function (err, data) {
+      assert(!err, 'No erros');
+      // console.log(err, data);
+      var alt_names_map = geonames.alternate_names(data);
+      // console.log(alt_names_map['fi']);
+      assert(alt_names_map['fi'] === 'Lontoo');
+      assert(alt_names_map['en'] === 'The City');
+      done();
+    });
+  });
 });
