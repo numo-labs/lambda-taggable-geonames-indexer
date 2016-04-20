@@ -35,7 +35,7 @@ describe('Get Geonames Hierarchy for Hotel by Lat/Long', function () {
       // console.log(' - - - - - - - - - - - - - - - - - - - - - - - - ');
       // console.log(JSON.stringify(arguments, null, 2)); // the argument to context.succeed
       var geo_tags = arguments[0];
-      assert.deepEqual(geo_tags[5].tags[4], earth);
+      assert.deepEqual(geo_tags[1].tags[0], earth);
       // assert(arguments[0] === 'Earth');
       done();
     };

@@ -13,9 +13,9 @@ describe('format geonames hierarchy as array of tag objects', function () {
       'active': true
     };
     // console.log(tags);
-    // console.log(JSON.stringify(geo_tags[0], null, 2)); // the argument to context.succeed
+    console.log(JSON.stringify(geo_tags[2], null, 2)); // the argument to context.succeed
     assert.equal(geo_tags.length, hierarchy_fixture.geonames.length, '6 Tags');
-    assert.deepEqual(geo_tags[5].tags[4], earth);
+    assert.deepEqual(geo_tags[1].tags[0], earth);
     assert.equal(geo_tags[0].metadata[0].values[0], 'Welt');
     done();
   });
