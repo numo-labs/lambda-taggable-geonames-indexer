@@ -1,0 +1,1704 @@
+{
+  "4645760": {
+    "timezone": {
+      "gmtOffset": -6,
+      "timeZoneId": "America/Chicago",
+      "dstOffset": -5
+    },
+    "bbox": {
+      "east": -90.02521373447902,
+      "south": 35.05304225124857,
+      "north": 35.071029548751426,
+      "west": -90.04719126552098
+    },
+    "asciiName": "Nonconnah",
+    "countryId": "6252001",
+    "fcl": "P",
+    "srtm3": 74,
+    "adminId2": "4657046",
+    "countryCode": "US",
+    "adminId1": "4662168",
+    "lat": "35.06204",
+    "fcode": "PPL",
+    "continentCode": "NA",
+    "elevation": 73,
+    "adminCode2": "157",
+    "adminCode1": "TN",
+    "lng": "-90.0362",
+    "geonameId": 4645760,
+    "toponymName": "Nonconnah",
+    "population": 0,
+    "wikipediaURL": "en.wikipedia.org/wiki/Nonconnah%2C_Tennessee",
+    "adminName5": "",
+    "adminName4": "",
+    "adminName3": "",
+    "alternateNames": [
+      {
+        "name": "http://en.wikipedia.org/wiki/Nonconnah%2C_Tennessee",
+        "lang": "link"
+      }
+    ],
+    "adminName2": "Shelby County",
+    "name": "Nonconnah",
+    "fclName": "city, village,...",
+    "countryName": "United States",
+    "fcodeName": "populated place",
+    "adminName1": "Tennessee"
+  },
+  "4657046": {
+    "timezone": {
+      "gmtOffset": -6,
+      "timeZoneId": "America/Chicago",
+      "dstOffset": -5
+    },
+    "bbox": {
+      "east": -89.63301086425781,
+      "south": 34.995975494384766,
+      "north": 35.40962600708008,
+      "west": -90.31074523925781
+    },
+    "asciiName": "Shelby County",
+    "countryId": "6252001",
+    "fcl": "A",
+    "srtm3": 81,
+    "adminId2": "4657046",
+    "countryCode": "US",
+    "adminId1": "4662168",
+    "lat": "35.184",
+    "fcode": "ADM2",
+    "continentCode": "NA",
+    "elevation": 76,
+    "adminCode2": "157",
+    "adminCode1": "TN",
+    "lng": "-89.8956",
+    "geonameId": 4657046,
+    "toponymName": "Shelby County",
+    "population": 927644,
+    "wikipediaURL": "en.wikipedia.org/wiki/Shelby_County%2C_Tennessee",
+    "adminName5": "",
+    "adminName4": "",
+    "adminName3": "",
+    "alternateNames": [
+      {
+        "name": "Comitatul Shelby",
+        "lang": "ro"
+      },
+      {
+        "name": "Comté de Shelby",
+        "lang": "fr"
+      },
+      {
+        "name": "Condado de Shelby",
+        "lang": "es"
+      },
+      {
+        "name": "Condado de Shelby",
+        "lang": "pt"
+      },
+      {
+        "name": "Condado han Shelby",
+        "lang": "war"
+      },
+      {
+        "name": "Contea di Shelby",
+        "lang": "it"
+      },
+      {
+        "name": "Hrabstwo Shelby",
+        "lang": "pl"
+      },
+      {
+        "name": "http://en.wikipedia.org/wiki/Shelby_County%2C_Tennessee",
+        "lang": "link"
+      },
+      {
+        "name": "Quận Shelby",
+        "lang": "vi"
+      },
+      {
+        "name": "Shelby Comitatus",
+        "lang": "la"
+      },
+      {
+        "name": "Shelby konderria",
+        "lang": "eu"
+      },
+      {
+        "name": "Shelby Kūn",
+        "lang": "nan"
+      },
+      {
+        "name": "Shelby maakond",
+        "lang": "et"
+      },
+      {
+        "name": "Shelby megye",
+        "lang": "hu"
+      },
+      {
+        "name": "شلبی کاؤنٹی",
+        "lang": "pnb"
+      },
+      {
+        "name": "شیلبی کاؤنٹی، ٹینیسی",
+        "lang": "ur"
+      },
+      {
+        "name": "شهرستان شلبی، تنسی",
+        "lang": "fa"
+      },
+      {
+        "name": "Округ Шелби",
+        "lang": "sr"
+      },
+      {
+        "name": "Шелби",
+        "lang": "bg"
+      },
+      {
+        "name": "Шелби",
+        "lang": "ru"
+      },
+      {
+        "name": "Шелбі",
+        "lang": "uk"
+      },
+      {
+        "name": "Շելբի շրջան",
+        "lang": "hy"
+      },
+      {
+        "name": "শেলভি কাউন্টি",
+        "lang": "bpy"
+      },
+      {
+        "name": "謝爾比縣",
+        "lang": "zh"
+      },
+      {
+        "name": "シェルビー郡",
+        "lang": "ja"
+      }
+    ],
+    "adminName2": "Shelby County",
+    "name": "Shelby County",
+    "fclName": "country, state, region,...",
+    "countryName": "United States",
+    "fcodeName": "second-order administrative division",
+    "adminName1": "Tennessee"
+  },
+  "4662168": {
+    "timezone": {
+      "gmtOffset": -6,
+      "timeZoneId": "America/Chicago",
+      "dstOffset": -5
+    },
+    "bbox": {
+      "east": -81.6469,
+      "south": 34.982924,
+      "north": 36.678118,
+      "west": -90.31029799999999
+    },
+    "asciiName": "Tennessee",
+    "countryId": "6252001",
+    "fcl": "A",
+    "srtm3": 342,
+    "countryCode": "US",
+    "adminId1": "4662168",
+    "lat": "35.75035",
+    "fcode": "ADM1",
+    "continentCode": "NA",
+    "elevation": 325,
+    "adminCode1": "TN",
+    "lng": "-86.25027",
+    "geonameId": 4662168,
+    "toponymName": "Tennessee",
+    "adminTypeName": "state",
+    "population": 5935099,
+    "wikipediaURL": "en.wikipedia.org/wiki/Tennessee",
+    "adminName5": "",
+    "adminName4": "",
+    "adminName3": "",
+    "alternateNames": [
+      {
+        "name": "ቴነሲ",
+        "lang": "am"
+      },
+      {
+        "name": "테네시 주",
+        "lang": "ko"
+      },
+      {
+        "name": "รัฐเทนเนสซี",
+        "lang": "th"
+      },
+      {
+        "name": "Estado de Tennessee",
+        "lang": "es"
+      },
+      {
+        "name": "http://en.wikipedia.org/wiki/Tennessee",
+        "lang": "link"
+      },
+      {
+        "name": "http://id.loc.gov/authorities/names/n79060965",
+        "lang": "link"
+      },
+      {
+        "name": "Kenekī",
+        "lang": "haw"
+      },
+      {
+        "name": "State of Tennessee",
+        "lang": "en"
+      },
+      {
+        "name": "Tenesi",
+        "lang": "gn"
+      },
+      {
+        "name": "Tenèsi",
+        "lang": "ht"
+      },
+      {
+        "name": "Tenesī",
+        "lang": "lv"
+      },
+      {
+        "name": "Ténésii Hahoodzo",
+        "lang": "nv"
+      },
+      {
+        "name": "Tenesio",
+        "lang": "eo"
+      },
+      {
+        "name": "Tenesis",
+        "lang": "lt"
+      },
+      {
+        "name": "Tenesis",
+        "lang": "sgs"
+      },
+      {
+        "name": "Tenessi",
+        "lang": "pt"
+      },
+      {
+        "name": "Tenessì",
+        "lang": "pms"
+      },
+      {
+        "name": "Tennesia",
+        "lang": "la"
+      },
+      {
+        "isShortName": true,
+        "isPreferredName": true,
+        "name": "Tennessee",
+        "lang": "en"
+      },
+      {
+        "isPreferredName": true,
+        "name": "Tennessee",
+        "lang": "es"
+      },
+      {
+        "isShortName": true,
+        "isPreferredName": true,
+        "name": "Tennessee"
+      },
+      {
+        "name": "Tennessee suyu",
+        "lang": "ay"
+      },
+      {
+        "name": "Tennessee suyu",
+        "lang": "qu"
+      },
+      {
+        "name": "Tennessi",
+        "lang": "az"
+      },
+      {
+        "name": "Tennessi",
+        "lang": "kw"
+      },
+      {
+        "name": "Tennessi",
+        "lang": "uz"
+      },
+      {
+        "name": "Ténnéssi Shitati",
+        "lang": "ug"
+      },
+      {
+        "name": "Thièn-na̍p-sî",
+        "lang": "hak"
+      },
+      {
+        "name": "TN",
+        "lang": "abbr"
+      },
+      {
+        "isColloquial": true,
+        "name": "Volunteer State",
+        "lang": "en"
+      },
+      {
+        "name": "تنسی",
+        "lang": "fa"
+      },
+      {
+        "name": "تنسی",
+        "lang": "mzn"
+      },
+      {
+        "name": "تێنێسی",
+        "lang": "ckb"
+      },
+      {
+        "name": "تنسی ایالتی",
+        "lang": "azb"
+      },
+      {
+        "name": "تئنسی",
+        "lang": "glk"
+      },
+      {
+        "name": "تئنئسی",
+        "lang": "lrc"
+      },
+      {
+        "name": "تينيسي",
+        "lang": "ar"
+      },
+      {
+        "name": "تينيسى",
+        "lang": "arz"
+      },
+      {
+        "name": "ٹینیسی",
+        "lang": "pnb"
+      },
+      {
+        "name": "ٹینیسی",
+        "lang": "ur"
+      },
+      {
+        "name": "טנסי",
+        "lang": "he"
+      },
+      {
+        "name": "טענעסי",
+        "lang": "yi"
+      },
+      {
+        "name": "Τενεσί",
+        "lang": "el"
+      },
+      {
+        "name": "Тенеси",
+        "lang": "bg"
+      },
+      {
+        "name": "Тенеси",
+        "lang": "mk"
+      },
+      {
+        "name": "Тенеси",
+        "lang": "sr"
+      },
+      {
+        "name": "Теннесси",
+        "lang": "ba"
+      },
+      {
+        "name": "Теннесси",
+        "lang": "bxr"
+      },
+      {
+        "name": "Теннесси",
+        "lang": "ce"
+      },
+      {
+        "name": "Теннесси",
+        "lang": "cv"
+      },
+      {
+        "name": "Теннесси",
+        "lang": "kk"
+      },
+      {
+        "name": "Теннесси",
+        "lang": "mhr"
+      },
+      {
+        "name": "Теннесси",
+        "lang": "mn"
+      },
+      {
+        "name": "Теннесси",
+        "lang": "mrj"
+      },
+      {
+        "name": "Теннесси",
+        "lang": "os"
+      },
+      {
+        "isShortName": true,
+        "isPreferredName": true,
+        "name": "Теннесси",
+        "lang": "ru"
+      },
+      {
+        "name": "Теннесси",
+        "lang": "sah"
+      },
+      {
+        "name": "Теннесси",
+        "lang": "tt"
+      },
+      {
+        "name": "Теннесси",
+        "lang": "xal"
+      },
+      {
+        "name": "Теннессі",
+        "lang": "uk"
+      },
+      {
+        "name": "Штат Тэнесі",
+        "lang": "be"
+      },
+      {
+        "name": "ཐེན་ནེ་སི།",
+        "lang": "bo"
+      },
+      {
+        "name": "Թենեսի",
+        "lang": "hy"
+      },
+      {
+        "name": "ტენესი",
+        "lang": "ka"
+      },
+      {
+        "name": "टेनिसी",
+        "lang": "new"
+      },
+      {
+        "name": "टेनिसी",
+        "lang": "pi"
+      },
+      {
+        "name": "टेनेसी",
+        "lang": "hi"
+      },
+      {
+        "name": "टेनेसी",
+        "lang": "mr"
+      },
+      {
+        "name": "टेनेसी",
+        "lang": "ne"
+      },
+      {
+        "name": "टेनेसी",
+        "lang": "sa"
+      },
+      {
+        "name": "ટેનેસી",
+        "lang": "gu"
+      },
+      {
+        "name": "టేనస్సీ",
+        "lang": "te"
+      },
+      {
+        "name": "ਟੈਨੇਸੀ",
+        "lang": "pa"
+      },
+      {
+        "name": "டென்னிசி",
+        "lang": "ta"
+      },
+      {
+        "name": "ടെന്നസി",
+        "lang": "ml"
+      },
+      {
+        "name": "টেনেসি",
+        "lang": "bpy"
+      },
+      {
+        "name": "টেনেসী",
+        "lang": "bn"
+      },
+      {
+        "name": "တင်နက်ဆီပြည်နယ်",
+        "lang": "my"
+      },
+      {
+        "name": "テネシー州",
+        "lang": "ja"
+      },
+      {
+        "name": "田納西州",
+        "lang": "yue"
+      },
+      {
+        "name": "田纳西州",
+        "lang": "zh"
+      }
+    ],
+    "adminName2": "",
+    "name": "Tennessee",
+    "fclName": "country, state, region,...",
+    "countryName": "United States",
+    "fcodeName": "first-order administrative division",
+    "adminName1": "Tennessee"
+  },
+  "6252001": {
+    "bbox": {
+      "east": -66.954811,
+      "south": 18.913685,
+      "north": 71.390656,
+      "west": 172.454697
+    },
+    "asciiName": "United States",
+    "countryId": "6252001",
+    "fcl": "A",
+    "srtm3": 543,
+    "countryCode": "US",
+    "lat": "39.76",
+    "fcode": "PCLI",
+    "continentCode": "NA",
+    "adminCode1": "00",
+    "lng": "-98.5",
+    "geonameId": 6252001,
+    "toponymName": "United States",
+    "population": 310232863,
+    "wikipediaURL": "en.wikipedia.org/wiki/United_States",
+    "adminName5": "",
+    "adminName4": "",
+    "adminName3": "",
+    "alternateNames": [
+      {
+        "isPreferredName": true,
+        "name": "ꂰꇩ",
+        "lang": "ii"
+      },
+      {
+        "name": "미국",
+        "lang": "ko"
+      },
+      {
+        "name": "አሜሪካ",
+        "lang": "am"
+      },
+      {
+        "isPreferredName": true,
+        "name": "አሜሪካ",
+        "lang": "ti"
+      },
+      {
+        "isPreferredName": true,
+        "name": "ଯୁକ୍ତ ରାଷ୍ଟ୍ର ଆମେରିକା",
+        "lang": "or"
+      },
+      {
+        "name": "สหรัฐอเมริกา",
+        "lang": "th"
+      },
+      {
+        "name": "សហរដ្ឋអាមេរិក",
+        "lang": "km"
+      },
+      {
+        "name": "ສະຫະລັດອາເມລິກາ",
+        "lang": "lo"
+      },
+      {
+        "isColloquial": true,
+        "isShortName": true,
+        "name": "ABD",
+        "lang": "tr"
+      },
+      {
+        "isPreferredName": true,
+        "name": "ÂLeaa-Ôko tî Amerika",
+        "lang": "sg"
+      },
+      {
+        "name": "Ameerika Ühendriigid",
+        "lang": "et"
+      },
+      {
+        "isPreferredName": true,
+        "name": "Amelika",
+        "lang": "nd"
+      },
+      {
+        "name": "America",
+        "lang": "en"
+      },
+      {
+        "isPreferredName": true,
+        "name": "Amerihká Ovttastuvvan Stáhtat",
+        "lang": "se"
+      },
+      {
+        "isPreferredName": true,
+        "name": "Amerika",
+        "lang": "hr"
+      },
+      {
+        "isPreferredName": true,
+        "name": "Amerika",
+        "lang": "ki"
+      },
+      {
+        "isPreferredName": true,
+        "name": "Amerika",
+        "lang": "lg"
+      },
+      {
+        "isPreferredName": true,
+        "name": "Amerika",
+        "lang": "sn"
+      },
+      {
+        "isPreferredName": true,
+        "name": "Amɛrika",
+        "lang": "ak"
+      },
+      {
+        "name": "Amerika Birleşik Devletleri",
+        "lang": "tr"
+      },
+      {
+        "isPreferredName": true,
+        "name": "Amerika Birləşmiş Ştatları",
+        "lang": "az"
+      },
+      {
+        "name": "Amerika Serikat",
+        "lang": "id"
+      },
+      {
+        "isPreferredName": true,
+        "name": "Amerikas Forenede Stater",
+        "lang": "da"
+      },
+      {
+        "name": "Amerikas Förenta Stater",
+        "lang": "sv"
+      },
+      {
+        "name": "Amerikas forente stater",
+        "lang": "nb"
+      },
+      {
+        "isPreferredName": true,
+        "name": "Amerikas Savienotās Valstis",
+        "lang": "lv"
+      },
+      {
+        "name": "Amerika Syarikat",
+        "lang": "ms"
+      },
+      {
+        "name": "Ameriketako Estatu Batuak",
+        "lang": "eu"
+      },
+      {
+        "isPreferredName": true,
+        "name": "Ameriki",
+        "lang": "bm"
+      },
+      {
+        "isPreferredName": true,
+        "name": "Ameriki",
+        "lang": "ln"
+      },
+      {
+        "isPreferredName": true,
+        "name": "Ameriki",
+        "lang": "lu"
+      },
+      {
+        "isPreferredName": true,
+        "name": "Amurka",
+        "lang": "ha"
+      },
+      {
+        "name": "Bandaríkin",
+        "lang": "is"
+      },
+      {
+        "isPreferredName": true,
+        "name": "Bandaríki Norður-Ameríku",
+        "lang": "is"
+      },
+      {
+        "name": "Dei amerikanske sambandsstatane",
+        "lang": "nn"
+      },
+      {
+        "isPreferredName": true,
+        "name": "Dowlaaji Dentuɗi Amerik",
+        "lang": "ff"
+      },
+      {
+        "name": "Egyesült Államok",
+        "lang": "hu"
+      },
+      {
+        "isShortName": true,
+        "isPreferredName": true,
+        "name": "Estados Unidos",
+        "lang": "es"
+      },
+      {
+        "name": "Estados Unidos",
+        "lang": "pt"
+      },
+      {
+        "isPreferredName": true,
+        "name": "Estados Unidos de América",
+        "lang": "gl"
+      },
+      {
+        "name": "Estats Units",
+        "lang": "ca"
+      },
+      {
+        "isPreferredName": true,
+        "name": "Estats Units",
+        "lang": "oc"
+      },
+      {
+        "isPreferredName": true,
+        "name": "Estatu Batuak",
+        "lang": "eu"
+      },
+      {
+        "isPreferredName": true,
+        "name": "États-Unis",
+        "lang": "fr"
+      },
+      {
+        "isPreferredName": true,
+        "name": "Etazonia",
+        "lang": "mg"
+      },
+      {
+        "isPreferredName": true,
+        "name": "Feriene Steaten",
+        "lang": "fy"
+      },
+      {
+        "name": "Forente stater",
+        "lang": "nb"
+      },
+      {
+        "name": "Hoa Kỳ",
+        "lang": "vi"
+      },
+      {
+        "name": "http://de.wikipedia.org/wiki/Vereinigte_Staaten",
+        "lang": "link"
+      },
+      {
+        "name": "http://en.wikipedia.org/wiki/United_States",
+        "lang": "link"
+      },
+      {
+        "name": "http://id.loc.gov/authorities/names/n78095330",
+        "lang": "link"
+      },
+      {
+        "name": "http://it.wikipedia.org/wiki/Stati_Uniti_d%27America",
+        "lang": "link"
+      },
+      {
+        "name": "http://no.wikipedia.org/wiki/USA",
+        "lang": "link"
+      },
+      {
+        "name": "http://ru.wikipedia.org/wiki/%D0%A1%D0%BE%D0%B5%D0%B4%D0%B8%D0%BD%D1%91%D0%BD%D0%BD%D1%8B%D0%B5_%D0%A8%D1%82%D0%B0%D1%82%D1%8B_%D0%90%D0%BC%D0%B5%D1%80%D0%B8%D0%BA%D0%B8",
+        "lang": "link"
+      },
+      {
+        "name": "http://tr.wikipedia.org/wiki/Amerika_Birle%C5%9Fik_Devletleri",
+        "lang": "link"
+      },
+      {
+        "name": "http://www.usa.gov/",
+        "lang": "link"
+      },
+      {
+        "name": "http://www.whitehouse.gov/",
+        "lang": "link"
+      },
+      {
+        "isPreferredName": true,
+        "name": "i-United States",
+        "lang": "zu"
+      },
+      {
+        "isShortName": true,
+        "name": "JAV",
+        "lang": "lt"
+      },
+      {
+        "isPreferredName": true,
+        "name": "Jungtinės Amerikos Valstijos",
+        "lang": "lt"
+      },
+      {
+        "isShortName": true,
+        "name": "Jungtinės Valstijos",
+        "lang": "lt"
+      },
+      {
+        "isPreferredName": true,
+        "name": "Leta Zunze Ubumwe za Amerika",
+        "lang": "rn"
+      },
+      {
+        "isPreferredName": true,
+        "name": "Maraykanka",
+        "lang": "so"
+      },
+      {
+        "isPreferredName": true,
+        "name": "Marekani",
+        "lang": "sw"
+      },
+      {
+        "isPreferredName": true,
+        "name": "Naalagaaffeqatigiit",
+        "lang": "kl"
+      },
+      {
+        "isPreferredName": true,
+        "name": "Orílẹ́ède Orilẹede Amerika",
+        "lang": "yo"
+      },
+      {
+        "isPreferredName": true,
+        "name": "Puleʻanga fakatahataha ʻAmelika",
+        "lang": "to"
+      },
+      {
+        "name": "Sambandsríki Amerika",
+        "lang": "fo"
+      },
+      {
+        "name": "Sambandsstatane",
+        "lang": "nn"
+      },
+      {
+        "name": "Shtetet e Bashkuara të Amerikës",
+        "lang": "sq"
+      },
+      {
+        "isPreferredName": true,
+        "name": "Sjedinjene Američke Države",
+        "lang": "bs"
+      },
+      {
+        "name": "Sjedinjene Države",
+        "lang": "hr"
+      },
+      {
+        "name": "Spojené státy",
+        "lang": "cs"
+      },
+      {
+        "name": "Spojené štáty",
+        "lang": "sk"
+      },
+      {
+        "isPreferredName": true,
+        "name": "Spojené státy americké",
+        "lang": "cs"
+      },
+      {
+        "isPreferredName": true,
+        "name": "Spojené štáty americké",
+        "lang": "sk"
+      },
+      {
+        "isPreferredName": true,
+        "name": "Stadis Unids da l'America",
+        "lang": "rm"
+      },
+      {
+        "isPreferredName": true,
+        "name": "Stadoù-Unanet",
+        "lang": "br"
+      },
+      {
+        "name": "Stáit Aontaithe Mheiriceá",
+        "lang": "ga"
+      },
+      {
+        "name": "Stany Zjednoczone",
+        "lang": "pl"
+      },
+      {
+        "name": "Statele Unite",
+        "lang": "ro"
+      },
+      {
+        "name": "Statele Unite ale Americii",
+        "lang": "ro"
+      },
+      {
+        "name": "Stati Uniti",
+        "lang": "it"
+      },
+      {
+        "name": "Stati Uniti",
+        "lang": "mt"
+      },
+      {
+        "isPreferredName": true,
+        "name": "Statos Unite",
+        "lang": "ia"
+      },
+      {
+        "isPreferredName": true,
+        "name": "Statys Unys",
+        "lang": "kw"
+      },
+      {
+        "name": "United States",
+        "lang": "aa"
+      },
+      {
+        "isShortName": true,
+        "name": "United States",
+        "lang": "en"
+      },
+      {
+        "name": "United States",
+        "lang": "lv"
+      },
+      {
+        "name": "United States",
+        "lang": "om"
+      },
+      {
+        "isPreferredName": true,
+        "name": "United States of America",
+        "lang": "en"
+      },
+      {
+        "name": "U.S.",
+        "lang": "abbr"
+      },
+      {
+        "name": "USA",
+        "lang": "abbr"
+      },
+      {
+        "isColloquial": true,
+        "isShortName": true,
+        "name": "USA",
+        "lang": "da"
+      },
+      {
+        "isPreferredName": true,
+        "name": "USA",
+        "lang": "de"
+      },
+      {
+        "name": "USA",
+        "lang": "fr"
+      },
+      {
+        "isColloquial": true,
+        "isShortName": true,
+        "name": "USA",
+        "lang": "nb"
+      },
+      {
+        "isColloquial": true,
+        "isShortName": true,
+        "name": "USA",
+        "lang": "nn"
+      },
+      {
+        "isShortName": true,
+        "name": "USA",
+        "lang": "no"
+      },
+      {
+        "isColloquial": true,
+        "isShortName": true,
+        "name": "USA",
+        "lang": "sv"
+      },
+      {
+        "name": "U.S.A.",
+        "lang": "abbr"
+      },
+      {
+        "isPreferredName": true,
+        "name": "USA nutome",
+        "lang": "ee"
+      },
+      {
+        "name": "Usono",
+        "lang": "eo"
+      },
+      {
+        "name": "Vereinigte Staaten",
+        "lang": "de"
+      },
+      {
+        "name": "Verenigde Staten",
+        "lang": "nl"
+      },
+      {
+        "name": "Verenigde State van Amerika",
+        "lang": "af"
+      },
+      {
+        "name": "Yhdysvallat",
+        "lang": "fi"
+      },
+      {
+        "name": "Yr Unol Daleithiau",
+        "lang": "cy"
+      },
+      {
+        "isPreferredName": true,
+        "name": "ZDA",
+        "lang": "sl"
+      },
+      {
+        "name": "Združene države Amerike",
+        "lang": "sl"
+      },
+      {
+        "isPreferredName": true,
+        "name": "ایالات متحده",
+        "lang": "fa"
+      },
+      {
+        "name": "ایالات متحدهٔ امریکا",
+        "lang": "fa"
+      },
+      {
+        "name": "الاولايات المتحدة الامريكية",
+        "lang": "ar"
+      },
+      {
+        "isPreferredName": true,
+        "name": "الولايات المتحدة الأمريكية",
+        "lang": "ar"
+      },
+      {
+        "isPreferredName": true,
+        "name": "ریاستہائے متحدہ",
+        "lang": "ur"
+      },
+      {
+        "isPreferredName": true,
+        "name": "وڵاتە یەکگرتووەکان",
+        "lang": "ku"
+      },
+      {
+        "name": "ארצות הברית",
+        "lang": "he"
+      },
+      {
+        "isPreferredName": true,
+        "name": "Ηνωμένες Πολιτείες της Αμερικής",
+        "lang": "el"
+      },
+      {
+        "isPreferredName": true,
+        "name": "АҚШ",
+        "lang": "kk"
+      },
+      {
+        "isPreferredName": true,
+        "name": "Америкийн Нэгдсэн Улс",
+        "lang": "mn"
+      },
+      {
+        "name": "Злучаныя Штаты",
+        "lang": "be"
+      },
+      {
+        "isPreferredName": true,
+        "name": "Злучаныя Штаты Амерыкі",
+        "lang": "be"
+      },
+      {
+        "name": "Қўшма Штатлар",
+        "lang": "uz"
+      },
+      {
+        "name": "САЩ",
+        "lang": "bg"
+      },
+      {
+        "name": "Сједињене Америчке Државе",
+        "lang": "sr"
+      },
+      {
+        "isPreferredName": true,
+        "name": "Сједињене Државе",
+        "lang": "sr"
+      },
+      {
+        "name": "Соединенные Штаты",
+        "lang": "ru"
+      },
+      {
+        "isPreferredName": true,
+        "name": "Соединети Американски Држави",
+        "lang": "mk"
+      },
+      {
+        "isPreferredName": true,
+        "name": "Сполучені Штати Америки",
+        "lang": "uk"
+      },
+      {
+        "isPreferredName": true,
+        "name": "США",
+        "lang": "ru"
+      },
+      {
+        "name": "США",
+        "lang": "uk"
+      },
+      {
+        "isPreferredName": true,
+        "name": "Съединени щати",
+        "lang": "bg"
+      },
+      {
+        "name": "ཡུ་ནའིཊེཊ་སི་ཊེསི",
+        "lang": "dz"
+      },
+      {
+        "isPreferredName": true,
+        "name": "ཨ་མེ་རི་ཀ་",
+        "lang": "bo"
+      },
+      {
+        "name": "Ամէրիկայի Միացյալ Նահանգնէր",
+        "lang": "hy"
+      },
+      {
+        "isPreferredName": true,
+        "name": "Միացյալ Նահանգներ",
+        "lang": "hy"
+      },
+      {
+        "name": "ამერიკის შეერთებული შტატები",
+        "lang": "ka"
+      },
+      {
+        "isPreferredName": true,
+        "name": "संयुक्त राज्य",
+        "lang": "ne"
+      },
+      {
+        "name": "संयुक्त राज्य अमरिका",
+        "lang": "hi"
+      },
+      {
+        "isPreferredName": true,
+        "name": "संयुक्त राज्य अमेरिका",
+        "lang": "hi"
+      },
+      {
+        "isPreferredName": true,
+        "name": "संयुक्त राज्ये /अमेरिका",
+        "lang": "mr"
+      },
+      {
+        "isPreferredName": true,
+        "name": "સંયુકત રાજ્ય/ અમેરિકા",
+        "lang": "gu"
+      },
+      {
+        "isPreferredName": true,
+        "name": "సంయుక్త రాజ్య అమెరికా",
+        "lang": "te"
+      },
+      {
+        "isPreferredName": true,
+        "name": "ಅಮೇರಿಕಾ ಸಂಯುಕ್ತ ಸಂಸ್ಥಾನ",
+        "lang": "kn"
+      },
+      {
+        "isPreferredName": true,
+        "name": "ஐக்கிய அமெரிக்க குடியரசு",
+        "lang": "ta"
+      },
+      {
+        "isPreferredName": true,
+        "name": "അമേരിക്കന്‍ ഐക്യനാടുകള്‍",
+        "lang": "ml"
+      },
+      {
+        "name": "মার্কিন যুক্তরাষ্ট্র",
+        "lang": "bn"
+      },
+      {
+        "isPreferredName": true,
+        "name": "যুক্তৰাষ্ট্ৰ",
+        "lang": "as"
+      },
+      {
+        "isPreferredName": true,
+        "name": "ယူနိုက်တက်စတိတ်",
+        "lang": "my"
+      },
+      {
+        "isPreferredName": true,
+        "name": "එක්සත් ජනපදය",
+        "lang": "si"
+      },
+      {
+        "name": "アメリカ合衆国",
+        "lang": "ja"
+      },
+      {
+        "name": "美国",
+        "lang": "zh"
+      }
+    ],
+    "adminName2": "",
+    "name": "United States",
+    "fclName": "country, state, region,...",
+    "countryName": "United States",
+    "fcodeName": "independent political entity",
+    "adminName1": ""
+  },
+  "6255149": {
+    "lng": "-100.54688",
+    "geonameId": 6255149,
+    "timezone": {
+      "gmtOffset": -7,
+      "timeZoneId": "America/Cambridge_Bay",
+      "dstOffset": -6
+    },
+    "bbox": {
+      "east": -25.012222290039062,
+      "south": 7.206110954284668,
+      "north": 83.1480859363606,
+      "west": 172.347846
+    },
+    "toponymName": "North America",
+    "asciiName": "North America",
+    "fcl": "L",
+    "population": 0,
+    "wikipediaURL": "en.wikipedia.org/wiki/North_America",
+    "adminName5": "",
+    "srtm3": 570,
+    "adminName4": "",
+    "adminName3": "",
+    "alternateNames": [
+      {
+        "isPreferredName": true,
+        "name": "북아메리카",
+        "lang": "ko"
+      },
+      {
+        "name": "อเมริกาเหนือ",
+        "lang": "th"
+      },
+      {
+        "name": "Abya Yala",
+        "lang": "cai"
+      },
+      {
+        "name": "Amèrica del Nord",
+        "lang": "ca"
+      },
+      {
+        "isPreferredName": true,
+        "name": "América del Norte",
+        "lang": "es"
+      },
+      {
+        "name": "América do Norte",
+        "lang": "pt"
+      },
+      {
+        "name": "América Septentrional",
+        "lang": "es"
+      },
+      {
+        "name": "America settentrionale",
+        "lang": "it"
+      },
+      {
+        "name": "Amerika Utara",
+        "lang": "id"
+      },
+      {
+        "name": "Amérique du Nord",
+        "lang": "fr"
+      },
+      {
+        "name": "Ameryka Północna",
+        "lang": "pl"
+      },
+      {
+        "name": "Bắc Mỹ",
+        "lang": "vi"
+      },
+      {
+        "name": "Davvi-Amerihkká",
+        "lang": "se"
+      },
+      {
+        "name": "Észak-Amerika",
+        "lang": "hu"
+      },
+      {
+        "name": "Gogledd America",
+        "lang": "cy"
+      },
+      {
+        "name": "http://en.wikipedia.org/wiki/North_America",
+        "lang": "link"
+      },
+      {
+        "name": "http://id.loc.gov/authorities/subjects/sh85092455",
+        "lang": "link"
+      },
+      {
+        "name": "Kuzey Amerika",
+        "lang": "tr"
+      },
+      {
+        "name": "Meiriceá Thuaidh",
+        "lang": "ga"
+      },
+      {
+        "name": "Noord-Amerika",
+        "lang": "nl"
+      },
+      {
+        "name": "Nordamerika",
+        "lang": "da"
+      },
+      {
+        "name": "Nordamerika",
+        "lang": "de"
+      },
+      {
+        "name": "Nordamerika",
+        "lang": "sv"
+      },
+      {
+        "name": "Nord-Amerika",
+        "lang": "nb"
+      },
+      {
+        "name": "Nord-Amerika",
+        "lang": "no"
+      },
+      {
+        "name": "Nordameriko",
+        "lang": "eo"
+      },
+      {
+        "name": "Norður-Ameríka",
+        "lang": "is"
+      },
+      {
+        "isShortName": true,
+        "name": "Norteamérica",
+        "lang": "es"
+      },
+      {
+        "isPreferredName": true,
+        "name": "North America",
+        "lang": "en"
+      },
+      {
+        "name": "Pohjois-Amerikka",
+        "lang": "fi"
+      },
+      {
+        "isPreferredName": true,
+        "name": "Severná Amerika",
+        "lang": "sk"
+      },
+      {
+        "name": "Severní Amerika",
+        "lang": "cs"
+      },
+      {
+        "name": "Šiaurės Amerika",
+        "lang": "lt"
+      },
+      {
+        "name": "Sjeverna Amerika",
+        "lang": "bs"
+      },
+      {
+        "name": "Ziemeļamerika",
+        "lang": "lv"
+      },
+      {
+        "name": "أمريكا الشمالية",
+        "lang": "ar"
+      },
+      {
+        "name": "شمالی امریکہ",
+        "lang": "ur"
+      },
+      {
+        "name": "אמריקה הצפונית",
+        "lang": "he"
+      },
+      {
+        "name": "Βόρεια Αμερική",
+        "lang": "el"
+      },
+      {
+        "name": "Північна Америка",
+        "lang": "ru"
+      },
+      {
+        "name": "Північна Америка",
+        "lang": "uk"
+      },
+      {
+        "name": "Северна Америка",
+        "lang": "bg"
+      },
+      {
+        "isPreferredName": true,
+        "name": "Северная Америка",
+        "lang": "ru"
+      },
+      {
+        "name": "उत्तरी अमरीका",
+        "lang": "hi"
+      },
+      {
+        "name": "北アメリカ",
+        "lang": "ja"
+      },
+      {
+        "name": "北美洲",
+        "lang": "zh"
+      }
+    ],
+    "adminName2": "",
+    "name": "North America",
+    "fclName": "parks,area, ...",
+    "fcodeName": "continent",
+    "adminName1": "",
+    "lat": "46.07323",
+    "fcode": "CONT",
+    "continentCode": "NA"
+  },
+  "6295630": {
+    "lng": "0",
+    "geonameId": 6295630,
+    "toponymName": "Earth",
+    "asciiName": "Earth",
+    "fcl": "L",
+    "population": 6814400000,
+    "wikipediaURL": "en.wikipedia.org/wiki/Earth",
+    "adminName5": "",
+    "srtm3": -32768,
+    "adminName4": "",
+    "adminName3": "",
+    "alternateNames": [
+      {
+        "name": "Aarde",
+        "lang": "nl"
+      },
+      {
+        "isShortName": true,
+        "name": "Earth",
+        "lang": "en"
+      },
+      {
+        "name": "el món",
+        "lang": "ca"
+      },
+      {
+        "name": "el planeta",
+        "lang": "es"
+      },
+      {
+        "name": "Erde",
+        "lang": "de"
+      },
+      {
+        "isShortName": true,
+        "isPreferredName": true,
+        "name": "Föld",
+        "lang": "hu"
+      },
+      {
+        "name": "Globe",
+        "lang": "en"
+      },
+      {
+        "name": "Globo",
+        "lang": "it"
+      },
+      {
+        "name": "http://en.wikipedia.org/wiki/Earth",
+        "lang": "link"
+      },
+      {
+        "name": "Jorden",
+        "lang": "no"
+      },
+      {
+        "name": "Lurra",
+        "lang": "eu"
+      },
+      {
+        "name": "Maa",
+        "lang": "fi"
+      },
+      {
+        "isShortName": true,
+        "isPreferredName": true,
+        "name": "Monde",
+        "lang": "fr"
+      },
+      {
+        "name": "Mondo",
+        "lang": "eo"
+      },
+      {
+        "name": "Mondo",
+        "lang": "it"
+      },
+      {
+        "name": "Mundo",
+        "lang": "es"
+      },
+      {
+        "name": "Mundua",
+        "lang": "eu"
+      },
+      {
+        "name": "nuestro planeta",
+        "lang": "es"
+      },
+      {
+        "name": "Orbs",
+        "lang": "la"
+      },
+      {
+        "name": "Pamânt",
+        "lang": "ro"
+      },
+      {
+        "name": "Pianeta Terra",
+        "lang": "it"
+      },
+      {
+        "name": "Planeta Tierra",
+        "lang": "es"
+      },
+      {
+        "name": "Tero",
+        "lang": "eo"
+      },
+      {
+        "name": "Terra",
+        "lang": "ca"
+      },
+      {
+        "isShortName": true,
+        "isPreferredName": true,
+        "name": "Terra",
+        "lang": "it"
+      },
+      {
+        "name": "Terra",
+        "lang": "la"
+      },
+      {
+        "name": "Terre",
+        "lang": "fr"
+      },
+      {
+        "name": "Tierra",
+        "lang": "es"
+      },
+      {
+        "name": "Welt",
+        "lang": "de"
+      },
+      {
+        "name": "World",
+        "lang": "en"
+      },
+      {
+        "isPreferredName": true,
+        "name": "Yeryüzü",
+        "lang": "tr"
+      },
+      {
+        "isPreferredName": true,
+        "name": "Zeme",
+        "lang": "lv"
+      },
+      {
+        "isPreferredName": true,
+        "name": "Ziemia",
+        "lang": "pl"
+      },
+      {
+        "isShortName": true,
+        "isPreferredName": true,
+        "name": "Γη",
+        "lang": "el"
+      },
+      {
+        "name": "Υδρόγειος",
+        "lang": "el"
+      },
+      {
+        "name": "Ер шары",
+        "lang": "ba"
+      },
+      {
+        "name": "Җир шары",
+        "lang": "tt"
+      },
+      {
+        "name": "Земля",
+        "lang": "ru"
+      },
+      {
+        "name": "पृथ्वी",
+        "lang": "hi"
+      }
+    ],
+    "adminName2": "",
+    "name": "Earth",
+    "fclName": "parks,area, ...",
+    "fcodeName": "area",
+    "adminName1": "",
+    "lat": "0",
+    "fcode": "AREA"
+  }
+}
