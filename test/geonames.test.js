@@ -61,8 +61,11 @@ describe('Geonames API', function () {
       assert(!err, 'No erros');
       // console.log(err, data);
       var alt_names_map = geonames.alternate_names(data);
-      // console.log(alt_names_map['fi']);
-      assert(alt_names_map['fi'] === 'Lontoo');
+      var lang_list = ['da', 'de', 'en', 'es', 'fi', 'fr', 'nl', 'no', 'ru', 'sv', 'zh'];
+      var city_list = ['London', 'London', 'The City', 'Londres', 'Lontoo', 'Londres', 'Londen', 'London', 'Лондон', 'London', '伦敦'];
+      lang_list.forEach((lang, i) => {
+        assert(alt_names_map[lang] === city_list[i]);
+      });
       assert(alt_names_map['en'] === 'The City');
       done();
     });
