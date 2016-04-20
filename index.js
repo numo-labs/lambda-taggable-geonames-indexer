@@ -19,9 +19,12 @@ exports.handler = function (event, context) {
     var geonames_id = data.geonames[0].geonameId;
     geonames.hierarchy(geonames_id, function (err, hierarchy) {
       AwsHelper.failOnError(err, event, context);
-      var geo_tags = geonames.format_hierarchy_as_tags(hierarchy);
-      // console.log(JSON.stringify(geo_tags, null, 2)); // the argument to context.succeed
-      context.succeed(geo_tags);
+      geonames.get_all_geonames_records(hierarchy, (err, map) => {
+        AwsHelper.failOnError(err, event, context);
+        var geo_tags = geonames.format_hierarchy_as_tags(hierarchy, map);
+        // console.log(JSON.stringify(geo_tags, null, 2)); // the argument to context.succeed
+        context.succeed(geo_tags);
+      });
     });
   });
 };
