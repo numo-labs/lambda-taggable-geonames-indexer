@@ -38,7 +38,7 @@ describe('Geonames API', function () {
     // the fixtures have commas in the Lat/Long values ...
     var geonames_id = 2643743;
     geonames.get(geonames_id, function (err, data) {
-      assert(!err, 'No erros');
+      assert(!err, 'ERROR:', err);
       // console.log(err, data);
       assert(data.wikipediaURL === 'en.wikipedia.org/wiki/London');
       done();
@@ -49,7 +49,7 @@ describe('Geonames API', function () {
     // the fixtures have commas in the Lat/Long values ...
     var geonames_id = 2643743;
     geonames.get(geonames_id, function (err, data) {
-      assert(!err, 'No erros');
+      assert(!err, 'ERROR:', err);
       assert(data.wikipediaURL === 'en.wikipedia.org/wiki/London');
       done();
     });
@@ -58,7 +58,7 @@ describe('Geonames API', function () {
   it('geonames.alternate_names (get > alternate_names)', function (done) {
     var geonames_id = 2643743;
     geonames.get(geonames_id, function (err, data) {
-      assert(!err, 'No erros');
+      assert(!err, 'ERROR:', err);
       // console.log(err, data);
       var alt_names_map = geonames.alternate_names(data);
       var languages = ['da', 'de', 'en', 'es', 'fi', 'fr', 'nl', 'no', 'ru', 'sv', 'zh'];
@@ -75,7 +75,7 @@ describe('Geonames API', function () {
     // the fixtures have commas in the Lat/Long values ...
     // console.log(hierarchy_fixture);
     geonames.get_all_geonames_records(hierarchy_fixture, (err, map) => {
-      assert(!err);
+      assert(!err, 'ERROR:', err);
       hierarchy_fixture.geonames.forEach((entry) => {
         var g = map[entry.geonameId];
         assert(g.name, entry.name);
