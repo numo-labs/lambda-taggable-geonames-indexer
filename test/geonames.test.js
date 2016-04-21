@@ -10,7 +10,7 @@ describe('Geonames API', function () {
     var lng = fixtures[0].Longitude;
     geonames.find(lat, lng, function (err, data) {
       // console.log(err, data);
-      assert(!err, 'ERROR', err);
+      assert(!err, 'ERROR:', err);
       // console.log('geonameId:', data.geonames);
       assert(data.geonames[0].geonameId === 3343565);
       done();
@@ -22,11 +22,11 @@ describe('Geonames API', function () {
     var lat = fixtures[1].Latitude;
     var lng = fixtures[1].Longitude;
     geonames.find(lat, lng, function (err, data) {
-      assert(!err, 'No erros');
+      assert(!err, 'ERROR:', err);
       // console.log(err, data);
       var geonames_id = data.geonames[0].geonameId;
       geonames.hierarchy(geonames_id, function (err, data) {
-        assert(!err, 'No erros');
+        assert(!err, 'ERROR:', err);
         // console.log(err, data);
         assert(data.geonames[0].name === 'Earth', 'The Hotel is in Earth');
         done();
