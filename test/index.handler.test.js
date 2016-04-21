@@ -20,8 +20,7 @@ var hotel_tag = {
   },
   tags: []
 };
-
-console.log(JSON.stringify(hotel_tag, null, 2));
+// console.log(JSON.stringify(hotel_tag, null, 2));
 
 var CONTEXT = {
   functionName: 'LambdaTest',
@@ -36,7 +35,7 @@ describe('index.handler.test.js > Get Geonames Hierarchy for Hotel by Lat/Long',
   it('invoke the lambda function handler', function (done) {
     CONTEXT.succeed = function () {
       // console.log(' - - - - - - - - - - - - - - - - - - - - - - - - ');
-      console.log(JSON.stringify(arguments, null, 2)); // the argument to context.succeed
+      // console.log(JSON.stringify(arguments, null, 2)); // the argument to context.succeed
       var geo_tags = arguments[0];
       assert.deepEqual(geo_tags[1].tags[0], earth);
       // assert(arguments[0] === 'Earth');
