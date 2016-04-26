@@ -20,16 +20,18 @@ var hotel_tag = {
   },
   tags: []
 };
-
-console.log(JSON.stringify(hotel_tag, null, 2));
+// console.log(JSON.stringify(hotel_tag, null, 2));
 
 var CONTEXT = {
   functionName: 'LambdaTest',
   functionVersion: '1',
-  invokedFunctionArn: 'arn:aws:lambda:eu-west-1:655240711487:function:LambdaTest:$LATEST'
+  invokedFunctionArn: 'arn:aws:lambda:eu-west-1:655240711487:function:LambdaTest:$LATEST',
+  fail: function () {
+    console.log(' - - - - - - - -> FAIL:', arguments);
+  }
 };
 
-describe('Get Geonames Hierarchy for Hotel by Lat/Long', function () {
+describe('index.handler.test.js > Get Geonames Hierarchy for Hotel by Lat/Long', function () {
   it('invoke the lambda function handler', function (done) {
     CONTEXT.succeed = function () {
       // console.log(' - - - - - - - - - - - - - - - - - - - - - - - - ');

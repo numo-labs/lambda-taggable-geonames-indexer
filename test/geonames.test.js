@@ -10,7 +10,7 @@ describe('Geonames API', function () {
     var lng = fixtures[0].Longitude;
     geonames.find(lat, lng, function (err, data) {
       // console.log(err, data);
-      assert(!err, 'No erros');
+      assert(!err, 'ERROR:' + JSON.stringify(err));
       // console.log('geonameId:', data.geonames);
       assert(data.geonames[0].geonameId === 3343565);
       done();
@@ -22,11 +22,13 @@ describe('Geonames API', function () {
     var lat = fixtures[1].Latitude;
     var lng = fixtures[1].Longitude;
     geonames.find(lat, lng, function (err, data) {
-      assert(!err, 'No erros');
+      console.log('25', err);
+      // assert(!err, 'ERROR:'+ JSON.stringify(err));
       // console.log(err, data);
       var geonames_id = data.geonames[0].geonameId;
       geonames.hierarchy(geonames_id, function (err, data) {
-        assert(!err, 'No erros');
+        console.log('30', err);
+        // assert(!err, 'ERROR:'+ JSON.stringify(err));
         // console.log(err, data);
         assert(data.geonames[0].name === 'Earth', 'The Hotel is in Earth');
         done();
@@ -38,7 +40,8 @@ describe('Geonames API', function () {
     // the fixtures have commas in the Lat/Long values ...
     var geonames_id = 2643743;
     geonames.get(geonames_id, function (err, data) {
-      assert(!err, 'No erros');
+      console.log('43', err);
+      // assert(!err, 'ERROR:'+ JSON.stringify(err));
       // console.log(err, data);
       assert(data.wikipediaURL === 'en.wikipedia.org/wiki/London');
       done();
@@ -49,7 +52,8 @@ describe('Geonames API', function () {
     // the fixtures have commas in the Lat/Long values ...
     var geonames_id = 2643743;
     geonames.get(geonames_id, function (err, data) {
-      assert(!err, 'No erros');
+      console.log('55', err);
+      // assert(!err, 'ERROR:'+ JSON.stringify(err));
       assert(data.wikipediaURL === 'en.wikipedia.org/wiki/London');
       done();
     });
@@ -58,8 +62,8 @@ describe('Geonames API', function () {
   it('geonames.alternate_names (get > alternate_names)', function (done) {
     var geonames_id = 2643743;
     geonames.get(geonames_id, function (err, data) {
-      assert(!err, 'No erros');
-      // console.log(err, data);
+      console.log('65', err);
+      // assert(!err, 'ERROR:'+ JSON.stringify(err));
       var alt_names_map = geonames.alternate_names(data);
       var languages = ['da', 'de', 'en', 'es', 'fi', 'fr', 'nl', 'no', 'ru', 'sv', 'zh'];
       var city_list = ['London', 'London', 'The City', 'Londres', 'Lontoo', 'Londres', 'Londen', 'London', 'Лондон', 'London', '伦敦'];
@@ -72,18 +76,13 @@ describe('Geonames API', function () {
   });
 
   it('geonames.get_all_geonames_records_in_hierarchy', function (done) {
-    // the fixtures have commas in the Lat/Long values ...
-    // console.log(hierarchy_fixture);
     geonames.get_all_geonames_records(hierarchy_fixture, (err, map) => {
-      assert(!err);
+      console.log('80', err);
+      // assert(!err, 'ERROR:'+ JSON.stringify(err));
       hierarchy_fixture.geonames.forEach((entry) => {
         var g = map[entry.geonameId];
         assert(g.name, entry.name);
       });
-      // console.log(err, map);
-      // var filename = require('path').resolve(__dirname + '/fixtures/geonames_all_records_fixture.json')
-      // console.log(filename);
-      // require('fs').writeFileSync(filename, JSON.stringify(map, null, 2));
       done();
     });
   });
