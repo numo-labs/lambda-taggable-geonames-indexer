@@ -1,6 +1,6 @@
 var geonames = require('./lib/geonames');
 var AwsHelper = require('aws-lambda-helper');
-
+var s3_create = require('./lib/s3_create');
 /**
  * expects event to
  *
@@ -22,8 +22,17 @@ exports.handler = function (event, context) {
       geonames.get_all_geonames_records(hierarchy, (err, map) => {
         AwsHelper.failOnError(err, event, context);
         var geo_tags = geonames.format_hierarchy_as_tags(hierarchy, map);
-        // console.log(JSON.stringify(geo_tags, null, 2)); // the argument to context.succeed
-        context.succeed(geo_tags);
+        console.log(JSON.stringify(geo_tags, null, 2)); // the argument to context.succeed
+        // save each geonames record to S3
+        var count = 1; // keep track of how many records saved to S3
+        geo_tags.forEach(function (tag) {
+          s3_create('geo/geonames', tag, function (err, data) {
+            console.log(count, err, data);
+            if (++count === geo_tags.length) { // only succeed once
+              context.succeed(geo_tags);
+            }
+          });
+        });
       });
     });
   });
