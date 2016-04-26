@@ -2,8 +2,9 @@ var geonames = require('./lib/geonames');
 var AwsHelper = require('aws-lambda-helper');
 var s3_create = require('./lib/s3_create');
 /**
- * expects event to
- *
+ * @param {event} Object - a Taggable Tag with a `location` attribute
+ * containing lat & lon values.
+ * @returns geo_tags Array of Objects which are the geonames tags.
  */
 exports.handler = (event, context) => {
   console.log('Received event:', JSON.stringify(event, null, 2)); // debug SNS
@@ -19,6 +20,10 @@ exports.handler = (event, context) => {
     var geonames_id = data.geonames[0].geonameId;
     geonames.hierarchy(geonames_id, (err, hierarchy) => {
       AwsHelper.failOnError(err, event, context);
+      hierarchy._id = geonames_id; // set the _id for S3 filename
+      s3_create('geo/geonames/hierarchy', hierarchy, (err, data) => {
+        AwsHelper.failOnError(err, event, context);
+      });
       geonames.get_all_geonames_records(hierarchy, (err, map) => {
         AwsHelper.failOnError(err, event, context);
         var geo_tags = geonames.format_hierarchy_as_tags(hierarchy, map);
@@ -26,7 +31,7 @@ exports.handler = (event, context) => {
         // save each geonames record to S3
         var count = 1; // keep track of how many records saved to S3
         geo_tags.forEach((tag) => {
-          s3_create('geo/geonames', tag, (err, data) => {
+          s3_create('geo/geonames/tags', tag, (err, data) => {
             AwsHelper.failOnError(err, event, context);
             // console.log(count, err, data);
             if (++count === geo_tags.length) { // only succeed once
