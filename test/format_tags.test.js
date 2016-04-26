@@ -35,4 +35,10 @@ describe('format geonames hierarchy as array of tag objects', function () {
     assert.deepEqual(geo_tags[1].tags[0], earth);
     done();
   });
+
+  it('invoke map_alternate_names without alternateNames', function (done) {
+    var res = format_as_tags.map_alternate_names({});
+    assert.deepEqual(res, {});
+    done();
+  });
 });
