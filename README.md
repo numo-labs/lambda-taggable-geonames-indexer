@@ -51,8 +51,6 @@ Sample Event
 Will return an array of Geo Tags in the Taggable System format:
 
 ```js
-
-
 [
   {
     "_id": "geo:geonames.6295630",
@@ -62,104 +60,72 @@ Will return an array of Geo Tags in the Taggable System format:
       "lon": "0"
     },
     "tags": [],
-    "metadata": [
-      {
-        "key": "label:de",
-        "values": [
-          "Welt"
-        ]
+    "markets": {
+      "de": {
+        "de": {
+          "label": "search",
+          "values": [
+            "Welt"
+          ]
+        }
       },
-      {
-        "key": "search:de",
-        "values": [
-          "Welt"
-        ]
+      "gb": {
+        "en": {
+          "label": "search",
+          "values": [
+            "World"
+          ]
+        }
       },
-      {
-        "key": "label:en",
-        "values": [
-          "World"
-        ]
+      "es": {
+        "es": {
+          "label": "search",
+          "values": [
+            "Tierra"
+          ]
+        }
       },
-      {
-        "key": "search:en",
-        "values": [
-          "World"
-        ]
+      "fi": {
+        "fi": {
+          "label": "search",
+          "values": [
+            "Maa"
+          ]
+        }
       },
-      {
-        "key": "label:es",
-        "values": [
-          "Tierra"
-        ]
+      "fr": {
+        "fr": {
+          "label": "search",
+          "values": [
+            "Terre"
+          ]
+        }
       },
-      {
-        "key": "search:es",
-        "values": [
-          "Tierra"
-        ]
+      "nl": {
+        "nl": {
+          "label": "search",
+          "values": [
+            "Aarde"
+          ]
+        }
       },
-      {
-        "key": "label:fi",
-        "values": [
-          "Maa"
-        ]
+      "no": {
+        "no": {
+          "label": "search",
+          "values": [
+            "Jorden"
+          ]
+        }
       },
-      {
-        "key": "search:fi",
-        "values": [
-          "Maa"
-        ]
-      },
-      {
-        "key": "label:fr",
-        "values": [
-          "Terre"
-        ]
-      },
-      {
-        "key": "search:fr",
-        "values": [
-          "Terre"
-        ]
-      },
-      {
-        "key": "label:nl",
-        "values": [
-          "Aarde"
-        ]
-      },
-      {
-        "key": "search:nl",
-        "values": [
-          "Aarde"
-        ]
-      },
-      {
-        "key": "label:no",
-        "values": [
-          "Jorden"
-        ]
-      },
-      {
-        "key": "search:no",
-        "values": [
-          "Jorden"
-        ]
-      },
-      {
-        "key": "label:ru",
-        "values": [
-          "Земля"
-        ]
-      },
-      {
-        "key": "search:ru",
-        "values": [
-          "Земля"
-        ]
+      "ru": {
+        "ru": {
+          "label": "search",
+          "values": [
+            "Земля"
+          ]
+        }
       }
-    ]
+    }
   },
   {
     "_id": "geo:geonames.6255149",
@@ -178,140 +144,96 @@ Will return an array of Geo Tags in the Taggable System format:
         "active": true
       }
     ],
-    "metadata": [
-      {
-        "key": "label:da",
-        "values": [
-          "Nordamerika"
-        ]
+    "markets": {
+      "dk": {
+        "da": {
+          "label": "search",
+          "values": [
+            "Nordamerika"
+          ]
+        }
       },
-      {
-        "key": "search:da",
-        "values": [
-          "Nordamerika"
-        ]
+      "de": {
+        "de": {
+          "label": "search",
+          "values": [
+            "Nordamerika"
+          ]
+        }
       },
-      {
-        "key": "label:de",
-        "values": [
-          "Nordamerika"
-        ]
+      "gb": {
+        "en": {
+          "label": "search",
+          "values": [
+            "North America"
+          ]
+        }
       },
-      {
-        "key": "search:de",
-        "values": [
-          "Nordamerika"
-        ]
+      "es": {
+        "es": {
+          "label": "search",
+          "values": [
+            "Norteamérica"
+          ]
+        }
       },
-      {
-        "key": "label:en",
-        "values": [
-          "North America"
-        ]
+      "fi": {
+        "fi": {
+          "label": "search",
+          "values": [
+            "Pohjois-Amerikka"
+          ]
+        }
       },
-      {
-        "key": "search:en",
-        "values": [
-          "North America"
-        ]
+      "fr": {
+        "fr": {
+          "label": "search",
+          "values": [
+            "Amérique du Nord"
+          ]
+        }
       },
-      {
-        "key": "label:es",
-        "values": [
-          "Norteamérica"
-        ]
+      "nl": {
+        "nl": {
+          "label": "search",
+          "values": [
+            "Noord-Amerika"
+          ]
+        }
       },
-      {
-        "key": "search:es",
-        "values": [
-          "Norteamérica"
-        ]
+      "no": {
+        "no": {
+          "label": "search",
+          "values": [
+            "Nord-Amerika"
+          ]
+        }
       },
-      {
-        "key": "label:fi",
-        "values": [
-          "Pohjois-Amerikka"
-        ]
+      "ru": {
+        "ru": {
+          "label": "search",
+          "values": [
+            "Северная Америка"
+          ]
+        }
       },
-      {
-        "key": "search:fi",
-        "values": [
-          "Pohjois-Amerikka"
-        ]
+      "sv": {
+        "sv": {
+          "label": "search",
+          "values": [
+            "Nordamerika"
+          ]
+        }
       },
-      {
-        "key": "label:fr",
-        "values": [
-          "Amérique du Nord"
-        ]
-      },
-      {
-        "key": "search:fr",
-        "values": [
-          "Amérique du Nord"
-        ]
-      },
-      {
-        "key": "label:nl",
-        "values": [
-          "Noord-Amerika"
-        ]
-      },
-      {
-        "key": "search:nl",
-        "values": [
-          "Noord-Amerika"
-        ]
-      },
-      {
-        "key": "label:no",
-        "values": [
-          "Nord-Amerika"
-        ]
-      },
-      {
-        "key": "search:no",
-        "values": [
-          "Nord-Amerika"
-        ]
-      },
-      {
-        "key": "label:ru",
-        "values": [
-          "Северная Америка"
-        ]
-      },
-      {
-        "key": "search:ru",
-        "values": [
-          "Северная Америка"
-        ]
-      },
-      {
-        "key": "label:sv",
-        "values": [
-          "Nordamerika"
-        ]
-      },
-      {
-        "key": "search:sv",
-        "values": [
-          "Nordamerika"
-        ]
-      },
-      {
-        "key": "label:zh",
-        "values": [
-          "北美洲"
-        ]
-      },
-      {
-        "key": "search:zh",
-        "values": [
-          "北美洲"
-        ]
+      "cn": {
+        "zh": {
+          "label": "search",
+          "values": [
+            "北美洲"
+          ]
+        }
       }
-    ]
+    }
   },
   {
     "_id": "geo:geonames.6252001",
@@ -330,140 +252,96 @@ Will return an array of Geo Tags in the Taggable System format:
         "active": true
       }
     ],
-    "metadata": [
-      {
-        "key": "label:da",
-        "values": [
-          "USA"
-        ]
+    "markets": {
+      "dk": {
+        "da": {
+          "label": "search",
+          "values": [
+            "USA"
+          ]
+        }
       },
-      {
-        "key": "search:da",
-        "values": [
-          "USA"
-        ]
+      "de": {
+        "de": {
+          "label": "search",
+          "values": [
+            "Vereinigte Staaten"
+          ]
+        }
       },
-      {
-        "key": "label:de",
-        "values": [
-          "Vereinigte Staaten"
-        ]
+      "gb": {
+        "en": {
+          "label": "search",
+          "values": [
+            "United States of America"
+          ]
+        }
       },
-      {
-        "key": "search:de",
-        "values": [
-          "Vereinigte Staaten"
-        ]
+      "es": {
+        "es": {
+          "label": "search",
+          "values": [
+            "Estados Unidos"
+          ]
+        }
       },
-      {
-        "key": "label:en",
-        "values": [
-          "United States of America"
-        ]
+      "fi": {
+        "fi": {
+          "label": "search",
+          "values": [
+            "Yhdysvallat"
+          ]
+        }
       },
-      {
-        "key": "search:en",
-        "values": [
-          "United States of America"
-        ]
+      "fr": {
+        "fr": {
+          "label": "search",
+          "values": [
+            "USA"
+          ]
+        }
       },
-      {
-        "key": "label:es",
-        "values": [
-          "Estados Unidos"
-        ]
+      "nl": {
+        "nl": {
+          "label": "search",
+          "values": [
+            "Verenigde Staten"
+          ]
+        }
       },
-      {
-        "key": "search:es",
-        "values": [
-          "Estados Unidos"
-        ]
+      "no": {
+        "no": {
+          "label": "search",
+          "values": [
+            "USA"
+          ]
+        }
       },
-      {
-        "key": "label:fi",
-        "values": [
-          "Yhdysvallat"
-        ]
+      "ru": {
+        "ru": {
+          "label": "search",
+          "values": [
+            "США"
+          ]
+        }
       },
-      {
-        "key": "search:fi",
-        "values": [
-          "Yhdysvallat"
-        ]
+      "sv": {
+        "sv": {
+          "label": "search",
+          "values": [
+            "USA"
+          ]
+        }
       },
-      {
-        "key": "label:fr",
-        "values": [
-          "USA"
-        ]
-      },
-      {
-        "key": "search:fr",
-        "values": [
-          "USA"
-        ]
-      },
-      {
-        "key": "label:nl",
-        "values": [
-          "Verenigde Staten"
-        ]
-      },
-      {
-        "key": "search:nl",
-        "values": [
-          "Verenigde Staten"
-        ]
-      },
-      {
-        "key": "label:no",
-        "values": [
-          "USA"
-        ]
-      },
-      {
-        "key": "search:no",
-        "values": [
-          "USA"
-        ]
-      },
-      {
-        "key": "label:ru",
-        "values": [
-          "США"
-        ]
-      },
-      {
-        "key": "search:ru",
-        "values": [
-          "США"
-        ]
-      },
-      {
-        "key": "label:sv",
-        "values": [
-          "USA"
-        ]
-      },
-      {
-        "key": "search:sv",
-        "values": [
-          "USA"
-        ]
-      },
-      {
-        "key": "label:zh",
-        "values": [
-          "美国"
-        ]
-      },
-      {
-        "key": "search:zh",
-        "values": [
-          "美国"
-        ]
+      "cn": {
+        "zh": {
+          "label": "search",
+          "values": [
+            "美国"
+          ]
+        }
       }
-    ]
+    }
   },
   {
     "_id": "geo:geonames.4662168",
@@ -482,56 +360,40 @@ Will return an array of Geo Tags in the Taggable System format:
         "active": true
       }
     ],
-    "metadata": [
-      {
-        "key": "label:en",
-        "values": [
-          "Volunteer State"
-        ]
+    "markets": {
+      "gb": {
+        "en": {
+          "label": "search",
+          "values": [
+            "Volunteer State"
+          ]
+        }
       },
-      {
-        "key": "search:en",
-        "values": [
-          "Volunteer State"
-        ]
+      "es": {
+        "es": {
+          "label": "search",
+          "values": [
+            "Tennessee"
+          ]
+        }
       },
-      {
-        "key": "label:es",
-        "values": [
-          "Tennessee"
-        ]
+      "ru": {
+        "ru": {
+          "label": "search",
+          "values": [
+            "Теннесси"
+          ]
+        }
       },
-      {
-        "key": "search:es",
-        "values": [
-          "Tennessee"
-        ]
-      },
-      {
-        "key": "label:ru",
-        "values": [
-          "Теннесси"
-        ]
-      },
-      {
-        "key": "search:ru",
-        "values": [
-          "Теннесси"
-        ]
-      },
-      {
-        "key": "label:zh",
-        "values": [
-          "田纳西州"
-        ]
-      },
-      {
-        "key": "search:zh",
-        "values": [
-          "田纳西州"
-        ]
+      "cn": {
+        "zh": {
+          "label": "search",
+          "values": [
+            "田纳西州"
+          ]
+        }
       }
-    ]
+    }
   },
   {
     "_id": "geo:geonames.4657046",
@@ -550,56 +412,40 @@ Will return an array of Geo Tags in the Taggable System format:
         "active": true
       }
     ],
-    "metadata": [
-      {
-        "key": "label:es",
-        "values": [
-          "Condado de Shelby"
-        ]
+    "markets": {
+      "es": {
+        "es": {
+          "label": "search",
+          "values": [
+            "Condado de Shelby"
+          ]
+        }
       },
-      {
-        "key": "search:es",
-        "values": [
-          "Condado de Shelby"
-        ]
+      "fr": {
+        "fr": {
+          "label": "search",
+          "values": [
+            "Comté de Shelby"
+          ]
+        }
       },
-      {
-        "key": "label:fr",
-        "values": [
-          "Comté de Shelby"
-        ]
+      "ru": {
+        "ru": {
+          "label": "search",
+          "values": [
+            "Шелби"
+          ]
+        }
       },
-      {
-        "key": "search:fr",
-        "values": [
-          "Comté de Shelby"
-        ]
-      },
-      {
-        "key": "label:ru",
-        "values": [
-          "Шелби"
-        ]
-      },
-      {
-        "key": "search:ru",
-        "values": [
-          "Шелби"
-        ]
-      },
-      {
-        "key": "label:zh",
-        "values": [
-          "謝爾比縣"
-        ]
-      },
-      {
-        "key": "search:zh",
-        "values": [
-          "謝爾比縣"
-        ]
+      "cn": {
+        "zh": {
+          "label": "search",
+          "values": [
+            "謝爾比縣"
+          ]
+        }
       }
-    ]
+    }
   },
   {
     "_id": "geo:geonames.4645760",
@@ -617,8 +463,7 @@ Will return an array of Geo Tags in the Taggable System format:
         "inherited": false,
         "active": true
       }
-    ],
-    "metadata": []
+    ]
   }
 ]
 ```
