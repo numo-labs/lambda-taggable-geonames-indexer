@@ -6,7 +6,8 @@ describe('format geonames hierarchy as array of tag objects', function () {
   it('format_tags.js', function (done) {
     var geo_tags = format_as_tags(hierarchy_fixture, geonames_records_map);
     var earth = {
-      'tagId': 'geo:geonames.6295630',
+      'node': 'geo:geonames.6295630',
+      'edge': 'LOCATED_IN',
       'displayName': 'Earth',
       'source': 'geonames',
       'inherited': false,
@@ -23,7 +24,8 @@ describe('format geonames hierarchy as array of tag objects', function () {
   it('invoke format_geonames_tags without geonames_records_map', function (done) {
     var geo_tags = format_as_tags(hierarchy_fixture, {});
     var earth = {
-      'tagId': 'geo:geonames.6295630',
+      'node': 'geo:geonames.6295630',
+      'edge': 'LOCATED_IN',
       'displayName': 'Earth',
       'source': 'geonames',
       'inherited': false,
