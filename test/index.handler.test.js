@@ -4,7 +4,8 @@ var fixtures = require('./fixtures/master_hotels_fixture.json');
 var master = fixtures[5];
 
 var earth = {
-  'tagId': 'geo:geonames.6295630',
+  'node': 'geo:geonames.6295630',
+  'edge': 'LOCATED_IN',
   'displayName': 'Earth',
   'source': 'geonames',
   'inherited': false,

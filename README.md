@@ -59,7 +59,73 @@ Will return an array of Geo Tags in the Taggable System format:
       "lat": "0",
       "lon": "0"
     },
-    "tags": []
+    "tags": [],
+    "markets": {
+      "de": {
+        "de": {
+          "label": "search",
+          "values": [
+            "Welt"
+          ]
+        }
+      },
+      "gb": {
+        "en": {
+          "label": "search",
+          "values": [
+            "World"
+          ]
+        }
+      },
+      "es": {
+        "es": {
+          "label": "search",
+          "values": [
+            "Tierra"
+          ]
+        }
+      },
+      "fi": {
+        "fi": {
+          "label": "search",
+          "values": [
+            "Maa"
+          ]
+        }
+      },
+      "fr": {
+        "fr": {
+          "label": "search",
+          "values": [
+            "Terre"
+          ]
+        }
+      },
+      "nl": {
+        "nl": {
+          "label": "search",
+          "values": [
+            "Aarde"
+          ]
+        }
+      },
+      "no": {
+        "no": {
+          "label": "search",
+          "values": [
+            "Jorden"
+          ]
+        }
+      },
+      "ru": {
+        "ru": {
+          "label": "search",
+          "values": [
+            "Земля"
+          ]
+        }
+      }
+    }
   },
   {
     "_id": "geo:geonames.6255149",
@@ -70,13 +136,104 @@ Will return an array of Geo Tags in the Taggable System format:
     },
     "tags": [
       {
-        "tagId": "geo:geonames.6295630",
+        "node": "geo:geonames.6295630",
+        "edge": "LOCATED_IN",
         "displayName": "Earth",
         "source": "geonames",
         "inherited": false,
         "active": true
       }
-    ]
+    ],
+    "markets": {
+      "dk": {
+        "da": {
+          "label": "search",
+          "values": [
+            "Nordamerika"
+          ]
+        }
+      },
+      "de": {
+        "de": {
+          "label": "search",
+          "values": [
+            "Nordamerika"
+          ]
+        }
+      },
+      "gb": {
+        "en": {
+          "label": "search",
+          "values": [
+            "North America"
+          ]
+        }
+      },
+      "es": {
+        "es": {
+          "label": "search",
+          "values": [
+            "Norteamérica"
+          ]
+        }
+      },
+      "fi": {
+        "fi": {
+          "label": "search",
+          "values": [
+            "Pohjois-Amerikka"
+          ]
+        }
+      },
+      "fr": {
+        "fr": {
+          "label": "search",
+          "values": [
+            "Amérique du Nord"
+          ]
+        }
+      },
+      "nl": {
+        "nl": {
+          "label": "search",
+          "values": [
+            "Noord-Amerika"
+          ]
+        }
+      },
+      "no": {
+        "no": {
+          "label": "search",
+          "values": [
+            "Nord-Amerika"
+          ]
+        }
+      },
+      "ru": {
+        "ru": {
+          "label": "search",
+          "values": [
+            "Северная Америка"
+          ]
+        }
+      },
+      "sv": {
+        "sv": {
+          "label": "search",
+          "values": [
+            "Nordamerika"
+          ]
+        }
+      },
+      "cn": {
+        "zh": {
+          "label": "search",
+          "values": [
+            "北美洲"
+          ]
+        }
+      }
+    }
   },
   {
     "_id": "geo:geonames.6252001",
@@ -87,20 +244,104 @@ Will return an array of Geo Tags in the Taggable System format:
     },
     "tags": [
       {
-        "tagId": "geo:geonames.6255149",
+        "node": "geo:geonames.6255149",
+        "edge": "LOCATED_IN",
         "displayName": "North America",
         "source": "geonames",
         "inherited": false,
         "active": true
-      },
-      {
-        "tagId": "geo:geonames.6295630",
-        "displayName": "Earth",
-        "source": "geonames",
-        "inherited": false,
-        "active": true
       }
-    ]
+    ],
+    "markets": {
+      "dk": {
+        "da": {
+          "label": "search",
+          "values": [
+            "USA"
+          ]
+        }
+      },
+      "de": {
+        "de": {
+          "label": "search",
+          "values": [
+            "Vereinigte Staaten"
+          ]
+        }
+      },
+      "gb": {
+        "en": {
+          "label": "search",
+          "values": [
+            "United States of America"
+          ]
+        }
+      },
+      "es": {
+        "es": {
+          "label": "search",
+          "values": [
+            "Estados Unidos"
+          ]
+        }
+      },
+      "fi": {
+        "fi": {
+          "label": "search",
+          "values": [
+            "Yhdysvallat"
+          ]
+        }
+      },
+      "fr": {
+        "fr": {
+          "label": "search",
+          "values": [
+            "USA"
+          ]
+        }
+      },
+      "nl": {
+        "nl": {
+          "label": "search",
+          "values": [
+            "Verenigde Staten"
+          ]
+        }
+      },
+      "no": {
+        "no": {
+          "label": "search",
+          "values": [
+            "USA"
+          ]
+        }
+      },
+      "ru": {
+        "ru": {
+          "label": "search",
+          "values": [
+            "США"
+          ]
+        }
+      },
+      "sv": {
+        "sv": {
+          "label": "search",
+          "values": [
+            "USA"
+          ]
+        }
+      },
+      "cn": {
+        "zh": {
+          "label": "search",
+          "values": [
+            "美国"
+          ]
+        }
+      }
+    }
   },
   {
     "_id": "geo:geonames.4662168",
@@ -111,27 +352,48 @@ Will return an array of Geo Tags in the Taggable System format:
     },
     "tags": [
       {
-        "tagId": "geo:geonames.6252001",
+        "node": "geo:geonames.6252001",
+        "edge": "LOCATED_IN",
         "displayName": "United States",
         "source": "geonames",
         "inherited": false,
         "active": true
-      },
-      {
-        "tagId": "geo:geonames.6255149",
-        "displayName": "North America",
-        "source": "geonames",
-        "inherited": false,
-        "active": true
-      },
-      {
-        "tagId": "geo:geonames.6295630",
-        "displayName": "Earth",
-        "source": "geonames",
-        "inherited": false,
-        "active": true
       }
-    ]
+    ],
+    "markets": {
+      "gb": {
+        "en": {
+          "label": "search",
+          "values": [
+            "Volunteer State"
+          ]
+        }
+      },
+      "es": {
+        "es": {
+          "label": "search",
+          "values": [
+            "Tennessee"
+          ]
+        }
+      },
+      "ru": {
+        "ru": {
+          "label": "search",
+          "values": [
+            "Теннесси"
+          ]
+        }
+      },
+      "cn": {
+        "zh": {
+          "label": "search",
+          "values": [
+            "田纳西州"
+          ]
+        }
+      }
+    }
   },
   {
     "_id": "geo:geonames.4657046",
@@ -142,34 +404,48 @@ Will return an array of Geo Tags in the Taggable System format:
     },
     "tags": [
       {
-        "tagId": "geo:geonames.4662168",
+        "node": "geo:geonames.4662168",
+        "edge": "LOCATED_IN",
         "displayName": "Tennessee",
         "source": "geonames",
         "inherited": false,
         "active": true
-      },
-      {
-        "tagId": "geo:geonames.6252001",
-        "displayName": "United States",
-        "source": "geonames",
-        "inherited": false,
-        "active": true
-      },
-      {
-        "tagId": "geo:geonames.6255149",
-        "displayName": "North America",
-        "source": "geonames",
-        "inherited": false,
-        "active": true
-      },
-      {
-        "tagId": "geo:geonames.6295630",
-        "displayName": "Earth",
-        "source": "geonames",
-        "inherited": false,
-        "active": true
       }
-    ]
+    ],
+    "markets": {
+      "es": {
+        "es": {
+          "label": "search",
+          "values": [
+            "Condado de Shelby"
+          ]
+        }
+      },
+      "fr": {
+        "fr": {
+          "label": "search",
+          "values": [
+            "Comté de Shelby"
+          ]
+        }
+      },
+      "ru": {
+        "ru": {
+          "label": "search",
+          "values": [
+            "Шелби"
+          ]
+        }
+      },
+      "cn": {
+        "zh": {
+          "label": "search",
+          "values": [
+            "謝爾比縣"
+          ]
+        }
+      }
+    }
   },
   {
     "_id": "geo:geonames.4645760",
@@ -180,36 +456,9 @@ Will return an array of Geo Tags in the Taggable System format:
     },
     "tags": [
       {
-        "tagId": "geo:geonames.4657046",
+        "node": "geo:geonames.4657046",
+        "edge": "LOCATED_IN",
         "displayName": "Shelby County",
-        "source": "geonames",
-        "inherited": false,
-        "active": true
-      },
-      {
-        "tagId": "geo:geonames.4662168",
-        "displayName": "Tennessee",
-        "source": "geonames",
-        "inherited": false,
-        "active": true
-      },
-      {
-        "tagId": "geo:geonames.6252001",
-        "displayName": "United States",
-        "source": "geonames",
-        "inherited": false,
-        "active": true
-      },
-      {
-        "tagId": "geo:geonames.6255149",
-        "displayName": "North America",
-        "source": "geonames",
-        "inherited": false,
-        "active": true
-      },
-      {
-        "tagId": "geo:geonames.6295630",
-        "displayName": "Earth",
         "source": "geonames",
         "inherited": false,
         "active": true
