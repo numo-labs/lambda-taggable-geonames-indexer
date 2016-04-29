@@ -10,7 +10,6 @@ describe('format geonames hierarchy as array of tag objects', function () {
       'edge': 'LOCATED_IN',
       'displayName': 'Earth',
       'source': 'geonames',
-      'inherited': false,
       'active': true
     };
     // console.log(tags);

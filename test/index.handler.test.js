@@ -8,7 +8,6 @@ var earth = {
   'edge': 'LOCATED_IN',
   'displayName': 'Earth',
   'source': 'geonames',
-  'inherited': false,
   'active': true
 };
 
