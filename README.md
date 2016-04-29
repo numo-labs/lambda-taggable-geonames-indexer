@@ -140,7 +140,6 @@ Will return an array of Geo Tags in the Taggable System format:
         "edge": "LOCATED_IN",
         "displayName": "Earth",
         "source": "geonames",
-        "inherited": false,
         "active": true
       }
     ],
@@ -248,7 +247,6 @@ Will return an array of Geo Tags in the Taggable System format:
         "edge": "LOCATED_IN",
         "displayName": "North America",
         "source": "geonames",
-        "inherited": false,
         "active": true
       }
     ],
@@ -356,7 +354,6 @@ Will return an array of Geo Tags in the Taggable System format:
         "edge": "LOCATED_IN",
         "displayName": "United States",
         "source": "geonames",
-        "inherited": false,
         "active": true
       }
     ],
@@ -408,7 +405,6 @@ Will return an array of Geo Tags in the Taggable System format:
         "edge": "LOCATED_IN",
         "displayName": "Tennessee",
         "source": "geonames",
-        "inherited": false,
         "active": true
       }
     ],
@@ -460,7 +456,6 @@ Will return an array of Geo Tags in the Taggable System format:
         "edge": "LOCATED_IN",
         "displayName": "Shelby County",
         "source": "geonames",
-        "inherited": false,
         "active": true
       }
     ]
