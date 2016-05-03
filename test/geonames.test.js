@@ -29,7 +29,7 @@ describe('Geonames API', function () {
       geonames.hierarchy(geonames_id, function (err, data) {
         console.log('30', err);
         // assert(!err, 'ERROR:'+ JSON.stringify(err));
-        // console.log(err, data);
+        console.log('Earth:', data.geonames[0]);
         assert(data.geonames[0].name === 'Earth', 'The Hotel is in Earth');
         done();
       });
@@ -42,7 +42,7 @@ describe('Geonames API', function () {
     geonames.get(geonames_id, function (err, data) {
       console.log('43', err);
       // assert(!err, 'ERROR:'+ JSON.stringify(err));
-      // console.log(err, data);
+      console.log('wikipediaURL:', data.wikipediaURL);
       assert(data.wikipediaURL === 'en.wikipedia.org/wiki/London');
       done();
     });
