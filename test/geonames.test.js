@@ -1,3 +1,4 @@
+require('env2')('.env');
 var assert = require('assert');
 var geonames = require('../lib/geonames');
 var fixtures = require('./fixtures/master_hotels_fixture.json');
