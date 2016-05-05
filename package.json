@@ -7,7 +7,7 @@
     "start": "node index.js",
     "test": "semistandard && npm run coverage",
     "deploy": "node ./node_modules/dpl/dpl.js",
-    "nocov": "node ./node_modules/.bin/mocha test/api_request.test.js",
+    "nocov": "node ./node_modules/.bin/mocha test/",
     "semistandard": "semistandard --verbose | snazzy",
     "api": "./node_modules/.bin/mocha test/geonames.test.js",
     "main": "node_modules/.bin/mocha test/index.handler.test.js",
