@@ -5,7 +5,7 @@
   "main": "lib/geonames.js",
   "scripts": {
     "start": "node index.js",
-    "test": "semistandard && npm run nocov",
+    "test": "npm run coverage",
     "deploy": "node ./node_modules/dpl/dpl.js",
     "nocov": "node ./node_modules/.bin/mocha test/",
     "semistandard": "semistandard --verbose | snazzy",
