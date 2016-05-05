@@ -33,16 +33,17 @@ var CONTEXT = {
 
 describe('index.handler.test.js > Get Geonames Hierarchy for Hotel by Lat/Long', function () {
   it('invoke the lambda function handler', function (done) {
-    CONTEXT.succeed = function () {
+    function callback (err, data) {
+      console.log(err);
       // console.log(' - - - - - - - - - - - - - - - - - - - - - - - - ');
-      // console.log(JSON.stringify(arguments, null, 2)); // the argument to context.succeed
-      var geo_tags = arguments[0];
+      // console.log(JSON.stringify(data, null, 2)); // the argument to context.succeed
+      var geo_tags = data;
       assert.deepEqual(geo_tags[1].tags[0], earth);
       // assert(arguments[0] === 'Earth');
       done();
-    };
+    }
     var EVENT = hotel_tag;
-    handler(EVENT, CONTEXT);
+    handler(EVENT, CONTEXT, callback);
   });
 
   it('invoke lambda handler with bad hotel (no lat/lon)', function (done) {
@@ -56,13 +57,13 @@ describe('index.handler.test.js > Get Geonames Hierarchy for Hotel by Lat/Long',
       tags: []
     };
 
-    CONTEXT.fail = function () {
+    function callback (err) {
       // console.log(' - - - - - - - - - - - - - - - - - - - - - - - - ');
-      console.log(arguments); // the argument to context.succeed
-      assert(arguments[0].message === 'lat & lon must be set on event.location');
+      console.log(err); // the argument to context.succeed
+      assert(err.message === 'lat & lon must be set on event.location');
       done();
-    };
+    }
     var EVENT = bad_hotel_tag;
-    handler(EVENT, CONTEXT);
+    handler(EVENT, CONTEXT, callback);
   });
 });
