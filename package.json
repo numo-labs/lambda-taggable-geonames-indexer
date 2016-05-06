@@ -5,7 +5,7 @@
   "main": "lib/geonames.js",
   "scripts": {
     "start": "node index.js",
-    "test": "npm run coverage",
+    "test": "npm run semistandard && npm run coverage",
     "deploy": "node ./node_modules/dpl/dpl.js",
     "nocov": "node ./node_modules/.bin/mocha test/",
     "semistandard": "semistandard --verbose | snazzy",
@@ -37,11 +37,11 @@
   "homepage": "https://github.com/numo-labs/lambda-taggable-geonames-indexer#readme",
   "dependencies": {
     "aws-lambda-helper": "^2.5.0",
-    "env2": "^2.0.7"
+    "env2": "^2.0.7",
+    "aws-sdk": "^2.3.8",
   },
   "devDependencies": {
     "aws-lambda-test-utils": "^1.0.2",
-    "aws-sdk": "^2.3.8",
     "aws-sdk-mock": "^1.0.10",
     "decache": "^3.0.5",
     "dpl": "^2.1.0",
