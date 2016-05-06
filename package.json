@@ -1,6 +1,6 @@
 {
   "name": "tag-e-geo",
-  "version": "1.6.0",
+  "version": "1.7.0",
   "description": "Create Tags based on Geonames hierarchy",
   "main": "lib/geonames.js",
   "scripts": {
@@ -44,7 +44,7 @@
     "aws-lambda-test-utils": "^1.0.2",
     "aws-sdk-mock": "^1.0.10",
     "decache": "^3.0.5",
-    "dpl": "^2.1.0",
+    "dpl": "^3.0.1",
     "istanbul": "^0.4.2",
     "mocha": "^2.4.5",
     "pre-commit": "^1.1.2",
