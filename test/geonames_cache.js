@@ -7,11 +7,11 @@ var geonames_id = 2643743;
 var filepath = 'test/place/' + geonames_id;
 
 describe('geonames_cache', function () {
-  it('save (getJSON)', function (done) {
+  it('set (getJSON)', function (done) {
     geonames.get(geonames_id, function (err, record) {
       if(err) console.log(err);
       assert(record.wikipediaURL === 'en.wikipedia.org/wiki/London');
-      geonames_cache.save(filepath, record, function (err, data) {
+      geonames_cache.set(filepath, record, function (err, data) {
       	if(err) console.log(err);
       	assert.equal(data.Key, filepath + '.json');
       	done();
@@ -42,3 +42,31 @@ describe('geonames_cache', function () {
   	});
   });
 });
+
+// delete 3 records so index.test.js exercises all branches (Cache Miss)
+// place/lat=35.04850&lng=-90.02710
+// hierarchy/4645760
+// place/6295630
+
+describe('remove 3 cached records to exercise Cache Miss branches', function () {
+	it('removes 2 places and a hierarchy', function (done) {
+		var files = [
+			'place/lat=35.04850&lng=-90.02710',
+			'hierarchy/4645760',
+			'place/6295630'
+		];
+		var count = 0;
+		files.forEach(function (filepath) {
+			geonames_cache.remove(filepath, function (err) {
+				assert(!err);
+				geonames_cache.get(filepath, function (err, data) {
+		  		assert.equal(err.statusCode, 404);
+		  		if(++count === files.length) {
+		  			done();
+		  		}
+		  	});
+			})
+		});
+	});
+});
+
