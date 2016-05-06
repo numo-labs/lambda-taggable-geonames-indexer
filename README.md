@@ -637,6 +637,8 @@ Using this script requires that you set a `GEONAMES_USERNAMES` environment varia
 e.g:
 ```sh
 export GEONAMES_USERNAME=yourusername,backupusername,etc
+export GEONAMES_CACHE=geonames-cache
+
 ```
 
 

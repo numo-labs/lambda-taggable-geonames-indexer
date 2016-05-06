@@ -80,7 +80,7 @@ describe('Geonames API', function () {
     geonames.get_all_geonames_records(hierarchy_fixture, (err, map) => {
       console.log('80', err);
       // assert(!err, 'ERROR:'+ JSON.stringify(err));
-      hierarchy_fixture.geonames.forEach((entry) => {
+      hierarchy_fixture.geonames.forEach(function (entry) {
         var g = map[entry.geonameId];
         assert(g.name, entry.name);
       });
