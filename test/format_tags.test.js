@@ -25,6 +25,7 @@ describe('Format Geonames Hierarchy as array of tag objects', function () {
     // console.log(JSON.stringify(geo_tags[1], null, 2)); // the argument to context.succeed
     // console.log('>>', geo_tags[0].markets['dk']['da']);
     assert.equal(geo_tags[0].markets['dk']['da'].values[0], 'Earth');
+    assert.equal(geo_tags[0].markets['dk']['da'].label, 'Earth');
     done();
   });
 

@@ -2,7 +2,7 @@
 
 ![image](https://cloud.githubusercontent.com/assets/194400/14675184/07682f88-0708-11e6-96b7-672e66329461.png)
 
-[![Codeship](https://img.shields.io/codeship/b54de050-d99b-0133-fa16-424a9136fddd.svg)](https://codeship.com/projects/140359/)
+[![Codeship](https://img.shields.io/codeship/b54de050-d99b-0133-fa16-424a9136fddd.svg)](https://codeship.com/projects/143596)
 [![codecov.io](https://codecov.io/github/numo-labs/lambda-taggable-geonames-indexer/coverage.svg?branch=master)](https://codecov.io/github/numo-labs/lambda-taggable-geonames-indexer?branch=master)
 [![Dependency Status](https://david-dm.org/numo-labs/lambda-taggable-geonames-indexer.svg)](https://david-dm.org/numo-labs/lambda-taggable-geonames-indexer)
 [![devDependency Status](https://david-dm.org/numo-labs/lambda-taggable-geonames-indexer/dev-status.svg)](https://david-dm.org/numo-labs/lambda-taggable-geonames-indexer#info=devDependencies)
@@ -637,6 +637,8 @@ Using this script requires that you set a `GEONAMES_USERNAMES` environment varia
 e.g:
 ```sh
 export GEONAMES_USERNAME=yourusername,backupusername,etc
+export GEONAMES_CACHE=geonames-cache
+
 ```
 
 
