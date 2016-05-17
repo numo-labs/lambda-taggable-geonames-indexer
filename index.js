@@ -11,7 +11,7 @@ exports.handler = (event, context, callback) => {
   AwsHelper.init(context, event);
   var log = AwsHelper.log;
 
-  log.info({ event: util.inspect(event) }, 'Received event');
+  log.trace({ event: util.inspect(event) }, 'Received event');
   // should we CHECK that the even has a location & lat/lon before lookup?
   if (!event.location || !event.location.lat || !event.location.lon) {
     var message = 'lat & lon must be set on event.location';
