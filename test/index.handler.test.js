@@ -2,6 +2,7 @@ var handler = require('../index').handler;
 var assert = require('assert');
 var fixtures = require('./fixtures/master_hotels_fixture.json');
 var master = fixtures[5];
+var AwsHelper = require('aws-lambda-helper');
 
 var earth = {
   'node': 'geo:geonames.6295630',
@@ -32,6 +33,10 @@ var CONTEXT = {
 };
 
 describe('index.handler.test.js > Get Geonames Hierarchy for Hotel by Lat/Long', function () {
+  before(function (done) {
+    AwsHelper.init(CONTEXT, {});
+    done();
+  });
   it('invoke the lambda function handler', function (done) {
     function callback (err, data) {
       console.log(err);

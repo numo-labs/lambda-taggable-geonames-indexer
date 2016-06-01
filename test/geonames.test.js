@@ -3,8 +3,16 @@ var assert = require('assert');
 var geonames = require('../lib/geonames');
 var fixtures = require('./fixtures/master_hotels_fixture.json');
 var hierarchy_fixture = require('./fixtures/geonames_hierarchy_fixture.json');
+var AwsHelper = require('aws-lambda-helper');
 
 describe('Geonames API', function () {
+  before(function (done) {
+    AwsHelper.init({
+      invokedFunctionArn: 'arn:aws:lambda:eu-west-1:123456789:function:mylambda'
+    }, {});
+    done();
+  });
+
   it('geonames.find (find_nearby_place_name_by_lat_lng)', function (done) {
     // the fixtures have commas in the Lat/Long values ...
     var lat = fixtures[0].Latitude;
