@@ -1,6 +1,6 @@
 {
   "name": "tag-e-geo",
-  "version": "1.7.0",
+  "version": "1.8.0",
   "description": "Create Tags based on Geonames hierarchy",
   "main": "lib/geonames.js",
   "scripts": {
@@ -36,9 +36,9 @@
   },
   "homepage": "https://github.com/numo-labs/lambda-taggable-geonames-indexer#readme",
   "dependencies": {
-    "aws-lambda-helper": "^2.10.0",
-    "env2": "^2.0.7",
-    "aws-sdk": "^2.3.8"
+    "aws-lambda-helper": "^2.18.0",
+    "env2": "^2.1.0",
+    "aws-sdk": "^2.3.17"
   },
   "devDependencies": {
     "aws-lambda-test-utils": "^1.0.2",
